@@ -1,0 +1,375 @@
+/* Text */
+BODY {	background-image : url( "../assets/images/schwarzbanner.png" );
+	background-repeat : repeat-x;
+	font-family : Lato Light ;
+	font-size : 14px;
+	color : rgb(51,51,51);
+	background-color : rgb(255,255,255)}
+
+.nof_ButtonBlackBanners1-Default {
+font-family:Open Sans ; font-size:24pt; color:rgb(51,51,51) 
+}
+
+.nof_ButtonBlackNavbar4-Regular {
+font-family:Lato Light ; font-size:16px; color:rgb(250,250,250) 
+}
+
+.nof_ButtonBlackNavbar5-Rollover {
+font-family:Lato Light ; font-size:16px; color:rgb(250,250,250) 
+}
+
+.nof_ButtonBlackNavbar6-Highlighted {
+font-family:Lato Light ; font-size:16px; color:rgb(51,51,51) 
+}
+
+.nof_ButtonBlackNavbar7-HighlightedRollover {
+font-family:Lato Light ; font-size:16px; color:rgb(51,51,51) 
+}
+
+.nof_ButtonBlackNavbar9-Regular {
+font-family:Open Sans Light ; font-size:13px; color:rgb(250,250,250) 
+}
+
+.nof_ButtonBlackNavbar10-Rollover {
+font-family:Open Sans Light ; font-size:13px; color:rgb(51,51,51) 
+}
+
+.nof_ButtonBlackNavbar11-Highlighted {
+font-family:Open Sans Light ; font-size:13px; color:rgb(250,250,250) 
+}
+
+.nof_ButtonBlackNavbar12-HighlightedRollover {
+font-family:Open Sans Light ; font-size:13px; color:rgb(51,51,51) 
+}
+
+
+P {
+	font-family: Lato Light ;
+	font-size : 14px;
+	color : rgb(51,51,51);
+	line-height : 1.5em}
+
+.TextObject {
+	font-family: Lato Light ;
+	font-size : 14px;
+	color : rgb(51,51,51)
+}
+
+.TextNavBar {
+	font-family: Lato Light ;
+	font-size : 14px;
+	color : rgb(0,30,78)
+}
+
+A:visited {
+	font-family: Lato Light ;
+	color : rgb(140,0,149);
+	font-size : 14px}
+
+A:active {
+	font-family: Lato Light ;
+	color : rgb(9,74,178);
+	font-size : 14px}
+
+H1 {
+	font-family: Lato Light ;
+	color : rgb(34,34,34)}
+
+H2 {
+	font-family: Lato Light ;
+	color : rgb(34,34,34)}
+
+H3 {
+	font-family: Lato Light ;
+	color : rgb(34,34,34)}
+
+
+
+UL {
+	font-family: Lato Light ;
+	font-size : 14px;
+	color : rgb(51,51,51)
+}
+
+OL {
+	font-family: Lato Light ;
+	font-size : 14px;
+	color : rgb(51,51,51)
+}
+
+/* Accordiion */
+.ui-accordion{
+	border: 1px solid #E6E6E6 !important;
+	border-top: none !important;
+	background-color: transparent !important
+}
+ .ui-accordion a {
+	border: none !important
+}
+div.ui-accordion.selected a.head.selected     {
+	background-image: url( "../assets/images/AccordionTabOpen.png" ) !important;
+	color: #fafafa !important
+}
+.ui-accordion a.head {
+	background-image: url( "../assets/images/AccordionTabClosed.png" ) !important;
+	background-color: transparent !important;
+	border: none !important;
+	font-size: 11px !important;
+	color: #fafafa !important;
+	font-weight: normal !important;
+	text-indent: 25px !important;
+	height: 30px !important;
+	line-height: 30px !important
+}
+.ui-accordion .ui-accordion-panel a {
+	display: inline !important
+}
+
+/* Tabs */
+.ui-tabs-panel {
+	border: 1px solid #E6E6E6 !important;
+	padding: 0px !important;
+	background-color: transparent !important
+}
+.ui-tabs-nav a {
+	background-image: url( "../assets/images/tab_top.png" ) !important;
+	font-weight: normal !important;
+	color: #fafafa !important;
+	font-size: 11px !important;
+	line-height: 22px !important
+}
+.ui-tabs-nav .ui-tabs-selected a {
+	color: #fafafa !important
+}
+.ui-tabs-nav a span     {
+	background-image: url( "../assets/images/tab_top.png" ) !important;
+	max-height: 50px;
+	height: 22px !important
+}
+.ui-tabs-nav a:hover span{
+	background-position: 0 -50px !important
+}
+.ui-tabs-nav a:hover{
+	background-position: 100% -150px !important;
+	color: #fafafa !important
+}
+
+/* Toggle Pane */
+div.TogglePaneFancyHeader {
+	font-family: inherit !important;
+	font-size: 11px !important;
+	font-weight: normal !important;
+	line-height: 30px;
+	height: 30px !important;
+	padding: 0px !important;
+	text-indent: 25px;
+	cursor: pointer;
+	border: 1px solid #E6E6E6 !important;
+	border-width: 0px 1px !important;
+	background-color: transparent !important;
+	background-image: url( "../assets/images/TogglePaneOpen.png" ) !important;
+	background-position: 0% 0% !important;
+	color: #f2f2f2 !important
+}
+div.TogglePaneFancyHeaderClosed {
+	background-color: transparent !important;
+	background-image: url( "../assets/images/TogglePaneClosed.png" ) !important;
+	background-position: 0% 0% !important;
+	color: #fafafa !important
+}
+div.TogglePanePlainContent {
+	border: 1px solid #E6E6E6 !important;
+	border-top: none !important;
+	background-color: transparent !important
+}
+
+A:hover {
+	font-family: Lato Light ;
+	color : rgb(38,114,236);
+	font-size : 14px}
+
+.jcarousel-skin-nof .jcarousel-next-horizontal {
+    background: transparent url( "Images\\next-horizontal.png" ) no-repeat 0 0
+}
+
+.jcarousel-skin-nof .jcarousel-direction-rtl .jcarousel-next-horizontal {
+    background-image: url( "Images\\prev-horizontal.png" )
+}
+
+.jcarousel-skin-nof .jcarousel-prev-horizontal {
+    background: transparent url( "Images\\prev-horizontal.png" ) no-repeat 0 0
+}
+
+.jcarousel-skin-nof .jcarousel-direction-rtl .jcarousel-prev-horizontal {
+    background-image: url( "Images\\next-horizontal.png" )
+}
+
+.jcarousel-skin-nof .jcarousel-next-vertical {
+    background: transparent url( "Images\\next-vertical.png" ) no-repeat 0 0
+}
+
+.jcarousel-skin-nof .jcarousel-prev-vertical {
+    background: transparent url( "Images\\prev-vertical.png" ) no-repeat 0 0
+}
+
+
+A {
+	font-family: Lato Light ;
+	color : rgb(38,114,236);
+	font-size : 14px
+}
+
+
+H4 {
+	font-family: Lato Light ;
+	color : rgb(34,34,34)}
+
+H5 {
+	font-family: Lato Light ;
+	color : rgb(34,34,34)}
+
+H6 {
+	font-family: Open Sans Light ;
+	color : rgb(34,34,34)}
+.jcarousel-skin-nof .jcarousel-next-horizontal {
+    background: transparent url( "../assets/images/nof-carousel-nav-right-lt.png" ) no-repeat 95% 50%}
+
+.jcarousel-skin-nof:hover .jcarousel-next-horizontal {
+	background-image: url( "../assets/images/nof-carousel-nav-right-lt.png" )
+}
+.jcarousel-skin-nof .jcarousel-next-horizontal:hover {
+	background-image: url( "../assets/images/nof-carousel-nav-right-lt.png" ) /* prev */
+}
+
+.jcarousel-skin-nof .jcarousel-direction-rtl .jcarousel-next-horizontal:hover {
+	background-image: url( "../assets/images/nof-carousel-nav-left-lt.png" )
+}
+
+.jcarousel-skin-nof .jcarousel-next-horizontal:focus {
+    background-image: url( "../assets/images/nof-carousel-nav-right-dk.png" )
+}
+
+.jcarousel-skin-nof .jcarousel-next-horizontal:active {
+    background-image: url( "../assets/images/nof-carousel-nav-right-dk.png" )
+}
+
+/* Previous */
+.jcarousel-skin-nof .jcarousel-prev-horizontal {
+    background: transparent url( "../assets/images/nof-carousel-nav-left-lt.png" ) no-repeat 5% 50%}
+
+.jcarousel-skin-nof:hover .jcarousel-prev-horizontal {
+	background-image: url( "../assets/images/nof-carousel-nav-left-lt.png" )
+}
+.jcarousel-skin-nof .jcarousel-prev-horizontal:hover {
+	background-image: url( "../assets/images/nof-carousel-nav-left-lt.png" )
+}
+
+.jcarousel-skin-nof .jcarousel-direction-rtl .jcarousel-prev-horizontal:hover {
+	background-image: url( "../assets/images/nof-carousel-nav-right-lt.png" )
+}
+
+.jcarousel-skin-nof .jcarousel-prev-horizontal:focus {
+    background-image: url( "../assets/images/nof-carousel-nav-left-dk.png" )
+}
+
+.jcarousel-skin-nof .jcarousel-prev-horizontal:active {
+    background-image: url( "../assets/images/nof-carousel-nav-left-dk.png" )
+}
+
+/**
+ *  Vertical Buttons
+ */
+.jcarousel-skin-nof .jcarousel-next-vertical {
+    background: transparent url( "../assets/images/nof-carousel-nav-down-lt.png" ) no-repeat 50% 95%}
+
+.jcarousel-skin-nof:hover .jcarousel-next-vertical {
+	background-image: url( "../assets/images/nof-carousel-nav-down-lt.png" )
+}
+.jcarousel-skin-nof .jcarousel-next-vertical:hover {
+	background-image: url( "../assets/images/nof-carousel-nav-down-lt.png" )
+}
+
+.jcarousel-skin-nof .jcarousel-direction-rtl .jcarousel-next-vertical:hover {
+	background-image: url( "../assets/images/nof-carousel-nav-up-lt.png" )
+}
+
+.jcarousel-skin-nof .jcarousel-next-vertical:focus {
+    background-image: url( "../assets/images/nof-carousel-nav-down-dk.png" )
+}
+
+.jcarousel-skin-nof .jcarousel-next-vertical:active {
+    background-image: url( "../assets/images/nof-carousel-nav-down-dk.png" )
+}
+
+/* Previous */
+.jcarousel-skin-nof .jcarousel-prev-vertical {
+    background: transparent url( "../assets/images/nof-carousel-nav-up-lt.png" ) no-repeat 50% 5%}
+
+.jcarousel-skin-nof:hover .jcarousel-prev-vertical {
+	background-image: url( "../assets/images/nof-carousel-nav-up-lt.png" )
+}
+.jcarousel-skin-nof .jcarousel-prev-vertical:hover {
+	background-image: url( "../assets/images/nof-carousel-nav-up-lt.png" )
+}
+
+.jcarousel-skin-nof .jcarousel-direction-rtl .jcarousel-prev-vertical:hover {
+	background-image: url( "../assets/images/nof-carousel-nav-down-lt.png" )
+}
+
+.jcarousel-skin-nof .jcarousel-prev-vertical:focus {
+    background-image: url( "../assets/images/nof-carousel-nav-up-dk.png" )
+}
+
+.jcarousel-skin-nof .jcarousel-prev-vertical:active {
+    background-image: url( "../assets/images/nof-carousel-nav-up-dk.png" )
+}
+
+.nof_ButtonBlackBanners21-Banner1 {
+font-family:MS Sans Serif ; font-size:14px; font-weight:400; font-style:normal; color:#000000 
+}
+
+
+.nof_ButtonBlackTableStyles18-row3cell3 {
+	color: rgb(0,0,0);
+ 	background-color: transparent
+}
+
+.nof_ButtonBlackTableStyles18-row3cell2 {
+	color: rgb(0,0,0);
+ 	background-color: transparent
+}
+
+.nof_ButtonBlackTableStyles18-row3cell1 {
+	color: rgb(0,0,0);
+ 	background-color: transparent
+}
+
+.nof_ButtonBlackTableStyles18-row2cell3 {
+	color: rgb(0,0,0);
+ 	background-color: transparent
+}
+
+.nof_ButtonBlackTableStyles18-row2cell2 {
+	color: rgb(0,0,0);
+ 	background-color: transparent
+}
+
+.nof_ButtonBlackTableStyles18-row2cell1 {
+	color: rgb(0,0,0);
+ 	background-color: transparent
+}
+
+.nof_ButtonBlackTableStyles18-row1cell3 {
+	color: rgb(0,0,0);
+ 	background-color: transparent
+}
+
+.nof_ButtonBlackTableStyles18-row1cell2 {
+	color: rgb(0,0,0);
+ 	background-color: transparent
+}
+
+.nof_ButtonBlackTableStyles18-row1cell1 {
+	color: rgb(0,0,0);
+ 	background-color: rgba(0,0,0,0)
+}

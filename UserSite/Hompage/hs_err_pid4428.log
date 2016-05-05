@@ -1,0 +1,374 @@
+#
+# A fatal error has been detected by the Java Runtime Environment:
+#
+#  EXCEPTION_ACCESS_VIOLATION (0xc0000005) at pc=0x015908bf, pid=4428, tid=7804
+#
+# JRE version: 7.0_07-b11
+# Java VM: Java HotSpot(TM) Client VM (23.3-b01 mixed mode windows-x86 )
+# Problematic frame:
+# C  [Fusion13.exe+0x7608bf]  UnmanageJavaThread+0x3039f
+#
+# Failed to write core dump. Minidumps are not enabled by default on client versions of Windows
+#
+# If you would like to submit a bug report, please visit:
+#   http://bugreport.sun.com/bugreport/crash.jsp
+# The crash happened outside the Java Virtual Machine in native code.
+# See problematic frame for where to report the bug.
+#
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x0874fc00):  JavaThread "main" [_thread_in_native, id=7804, stack(0x001d0000,0x002d0000)]
+
+siginfo: ExceptionCode=0xc0000005, reading address 0x000000dc
+
+Registers:
+EAX=0x087373a8, EBX=0x01591050, ECX=0x08bab858, EDX=0x00000000
+ESP=0x002cdd30, EBP=0x002cdd48, ESI=0x002cdd8c, EDI=0x00000004
+EIP=0x015908bf, EFLAGS=0x00010202
+
+Top of Stack: (sp=0x002cdd30)
+0x002cdd30:   00000000 002cdd4c 7736e023 0874fd28
+0x002cdd40:   08b9ada8 2b831a19 002cddac 01591092
+0x002cdd50:   002cdd8c 2b831afd 00000004 002cddb0
+0x002cdd60:   01591050 773a4b10 0032f7b8 00000008
+0x002cdd70:   00000000 00000000 00000000 002cde38
+0x002cdd80:   670674a8 ffffffff 67018fab 00000000
+0x002cdd90:   00000000 00000000 00000000 2b831afd
+0x002cdda0:   002cde38 016872e8 ffffffff 002cde44 
+
+Instructions: (pc=0x015908bf)
+0x0159089f:   cc 55 8b ec 83 ec 14 a1 dc db 90 01 33 c5 89 45
+0x015908af:   fc 56 8b 75 08 e8 87 fe ff ff 85 c0 74 44 8b 10
+0x015908bf:   8b 92 dc 00 00 00 8d 4d ec 51 8b c8 ff d2 8b 08
+0x015908cf:   89 0e 8b 50 04 89 56 04 8b 48 08 89 4e 08 8b 50 
+
+
+Register to memory mapping:
+
+EAX=0x087373a8 is an unknown value
+EBX=0x01591050 is an unknown value
+ECX=0x08bab858 is an unknown value
+EDX=0x00000000 is an unknown value
+ESP=0x002cdd30 is pointing into the stack for thread: 0x0874fc00
+EBP=0x002cdd48 is pointing into the stack for thread: 0x0874fc00
+ESI=0x002cdd8c is pointing into the stack for thread: 0x0874fc00
+EDI=0x00000004 is an unknown value
+
+
+Stack: [0x001d0000,0x002d0000],  sp=0x002cdd30,  free space=1015k
+Native frames: (J=compiled Java code, j=interpreted, Vv=VM code, C=native code)
+C  [Fusion13.exe+0x7608bf]  UnmanageJavaThread+0x3039f
+C  [Fusion13.exe+0x761092]  UnmanageJavaThread+0x30b72
+C  [mfc100.dll+0x200934]
+C  [mfc100.dll+0x2098c2]
+C  [NFXPort.dll+0x2201]  Java_com_netobjects_nfc_api_NFXPort_releaseInstance+0xa1
+C  [NFXPort.dll+0x1730]
+C  [NFXPort.dll+0x22a9]  Java_com_netobjects_nfc_api_NFXPort_nativeCallInt+0x39
+j  com.netobjects.nfc.api.NFXPort.nativeCallObject(I[Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;+0
+j  com.netobjects.nfc.api.NFXPort.CallObject(I[Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;+18
+j  com.netobjects.nfc.api.DDrawObj.getObjectRect()Lcom/netobjects/nfc/api/DRect;+7
+j  com.netobjects.nfc.api.DDrawPicture.getObjectRect()Lcom/netobjects/nfc/api/DRect;+1
+j  headline.Y.c()V+7
+j  headline.Y.a(Lcom/netobjects/nfxcomp/headline/module/HeadLineModule;ILjava/util/List;Lcom/netobjects/nfc/api/DAssetManager;)V+96
+j  com.netobjects.nfxcomp.headline.module.HeadLineModule.onPublish(Lcom/netobjects/nfc/api/DAssetManager;I)V+25
+j  com.netobjects.nfc.api.NFXComponentManager.publishNotification(Lcom/netobjects/nfc/api/ComponentApp;ILjava/lang/String;)V+31
+v  ~StubRoutines::call_stub
+V  [jvm.dll+0x12a39a]
+V  [jvm.dll+0x1d962e]
+V  [jvm.dll+0x12a41d]
+V  [jvm.dll+0xaf12a]
+V  [jvm.dll+0xb2b83]
+C  [Fusion13.exe+0x72ec8a]  DllRegisterServer+0x26a
+C  [Fusion13.exe+0x7334f4]  UnmanageJavaThread+0x2fd4
+C  [Fusion13.exe+0x733c79]  UnmanageJavaThread+0x3759
+C  [Fusion13.exe+0x733d90]  UnmanageJavaThread+0x3870
+C  [Fusion13.exe+0x72c78d]  PubViewSetSortLCIDRemote+0xb346d
+C  [Fusion13.exe+0x1219a4]  Cascade::PushType+0xd9ec4
+C  [Fusion13.exe+0x1219f7]  Cascade::PushType+0xd9f17
+C  [Fusion13.exe+0x1550e5]  Cascade::PushType+0x10d605
+C  [Fusion13.exe+0x155459]  Cascade::PushType+0x10d979
+C  [Fusion13.exe+0x156150]  Cascade::PushType+0x10e670
+C  [Fusion13.exe+0x40ee9a]  PumpUpDaMessage+0x73d5a
+C  [Fusion13.exe+0x412051]  PumpUpDaMessage+0x76f11
+C  [Fusion13.exe+0x413554]  PumpUpDaMessage+0x78414
+C  [Fusion13.exe+0x413727]  PumpUpDaMessage+0x785e7
+C  [Fusion13.exe+0x29404a]  Checker::~Checker+0xa330a
+C  [mfc100.dll+0x1ac8e9]
+C  [mfc100.dll+0x1acacb]
+C  [mfc100.dll+0x242679]
+C  [Fusion13.exe+0x29226f]  Checker::~Checker+0xa152f
+C  [mfc100.dll+0x236afd]
+C  [mfc100.dll+0x241ade]
+C  [mfc100.dll+0x236300]
+C  [ToolkitPro1531vc100.dll+0x14a93c]  CXTPCommandBarsSiteBase<CFrameWnd>::OnWndMsg+0x6c
+C  [Fusion13.exe+0x28f0fb]  Checker::~Checker+0x9e3bb
+C  [mfc100.dll+0x236273]
+C  [mfc100.dll+0x234696]
+C  [mfc100.dll+0x234922]
+C  [mfc100.dll+0x12cae6]
+C  [user32.DLL+0x162fa]  gapfnScSendMessage+0x332
+C  [user32.DLL+0x16d3a]  GetThreadDesktop+0xd7
+C  [user32.DLL+0x20d27]  GetClientRect+0xc5
+C  [user32.DLL+0x2794a]  CallWindowProcA+0x1b
+C  [ToolkitPro1531vc100.dll+0x1914d9]  CXTPHookManager::HookWndProc+0xd9
+C  [user32.DLL+0x162fa]  gapfnScSendMessage+0x332
+C  [user32.DLL+0x16d3a]  GetThreadDesktop+0xd7
+C  [user32.DLL+0x1965e]  GetWindow+0x3f0
+C  [user32.DLL+0x2617a]  SendMessageA+0x4c
+C  [ToolkitPro1531vc100.dll+0x11c1ad]  CXTPControl::OnExecute+0x19d
+C  [ToolkitPro1531vc100.dll+0x11bf37]  CXTPControl::ClickToolBarButton+0x2a7
+C  [ToolkitPro1531vc100.dll+0x11cb8b]  CXTPControlButton::OnClick+0x9b
+C  [ToolkitPro1531vc100.dll+0x1196fb]  CXTPControl::OnLButtonDown+0x3b
+C  [ToolkitPro1531vc100.dll+0x10f5ef]  CXTPCommandBar::OnLButtonDown+0x13f
+C  [ToolkitPro1531vc100.dll+0x1874ca]  CXTPToolBar::OnLButtonDown+0x5a
+C  [mfc100.dll+0x2366dd]
+C  [ToolkitPro1531vc100.dll+0x10c43a]  CXTPCommandBar::OnWndMsg+0x2a
+C  [mfc100.dll+0x236273]
+C  [mfc100.dll+0x234696]
+C  [mfc100.dll+0x234922]
+C  [mfc100.dll+0x12cae6]
+C  [user32.DLL+0x162fa]  gapfnScSendMessage+0x332
+C  [user32.DLL+0x16d3a]  GetThreadDesktop+0xd7
+C  [user32.DLL+0x177c4]  CharPrevW+0x138
+C  [user32.DLL+0x17bca]  DispatchMessageA+0xf
+C  [mfc100.dll+0x222f17]
+C  [mfc100.dll+0x248840]
+C  [Fusion13.exe+0x771200]  UnmanageJavaThread+0x40ce0
+C  [kernel32.dll+0x1336a]  BaseThreadInitThunk+0x12
+C  [ntdll.dll+0x39f72]  RtlInitializeExceptionChain+0x63
+C  [ntdll.dll+0x39f45]  RtlInitializeExceptionChain+0x36
+
+Java frames: (J=compiled Java code, j=interpreted, Vv=VM code)
+j  com.netobjects.nfc.api.NFXPort.nativeCallObject(I[Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;+0
+j  com.netobjects.nfc.api.NFXPort.CallObject(I[Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;+18
+j  com.netobjects.nfc.api.DDrawObj.getObjectRect()Lcom/netobjects/nfc/api/DRect;+7
+j  com.netobjects.nfc.api.DDrawPicture.getObjectRect()Lcom/netobjects/nfc/api/DRect;+1
+j  headline.Y.c()V+7
+j  headline.Y.a(Lcom/netobjects/nfxcomp/headline/module/HeadLineModule;ILjava/util/List;Lcom/netobjects/nfc/api/DAssetManager;)V+96
+j  com.netobjects.nfxcomp.headline.module.HeadLineModule.onPublish(Lcom/netobjects/nfc/api/DAssetManager;I)V+25
+j  com.netobjects.nfc.api.NFXComponentManager.publishNotification(Lcom/netobjects/nfc/api/ComponentApp;ILjava/lang/String;)V+31
+v  ~StubRoutines::call_stub
+
+---------------  P R O C E S S  ---------------
+
+Java Threads: ( => current thread )
+  0x08ac5400 JavaThread "AWT-Windows" daemon [_thread_in_native, id=9244, stack(0x0f6b0000,0x0f7b0000)]
+  0x08ae8800 JavaThread "Java2D Disposer" daemon [_thread_blocked, id=11088, stack(0x0f090000,0x0f190000)]
+  0x0896c800 JavaThread "Service Thread" daemon [_thread_blocked, id=4440, stack(0x0e920000,0x0ea20000)]
+  0x0895f400 JavaThread "C1 CompilerThread0" daemon [_thread_blocked, id=9712, stack(0x0e530000,0x0e630000)]
+  0x0895f000 JavaThread "Attach Listener" daemon [_thread_blocked, id=9608, stack(0x0e260000,0x0e360000)]
+  0x0895e800 JavaThread "Signal Dispatcher" daemon [_thread_blocked, id=6152, stack(0x0df10000,0x0e010000)]
+  0x0895e000 JavaThread "Surrogate Locker Thread (Concurrent GC)" daemon [_thread_blocked, id=7272, stack(0x0dba0000,0x0dca0000)]
+  0x0891ac00 JavaThread "Finalizer" daemon [_thread_blocked, id=2176, stack(0x0d760000,0x0d860000)]
+  0x08916c00 JavaThread "Reference Handler" daemon [_thread_blocked, id=10008, stack(0x0d300000,0x0d400000)]
+=>0x0874fc00 JavaThread "main" [_thread_in_native, id=7804, stack(0x001d0000,0x002d0000)]
+
+Other Threads:
+  0x08911000 VMThread [stack: 0x0b920000,0x0ba20000] [id=8564]
+  0x0897d000 WatcherThread [stack: 0x0ece0000,0x0ede0000] [id=5592]
+
+VM state:not at safepoint (normal execution)
+
+VM Mutex/Monitor currently owned by a thread: None
+
+Heap
+ par new generation   total 4928K, used 4114K [0x10090000, 0x105e0000, 0x155e0000)
+  eden space 4416K,  93% used [0x10090000, 0x10494860, 0x104e0000)
+  from space 512K,   0% used [0x104e0000, 0x104e0000, 0x10560000)
+  to   space 512K,   0% used [0x10560000, 0x10560000, 0x105e0000)
+ concurrent mark-sweep generation total 10944K, used 0K [0x155e0000, 0x16090000, 0x20090000)
+ concurrent-mark-sweep perm gen total 12288K, used 3658K [0x20090000, 0x20c90000, 0x24090000)
+
+Card table byte_map: [0x0b2d0000,0x0b380000] byte_map_base: 0x0b24fb80
+
+Polling page: 0x055a0000
+
+Code Cache  [0x092d0000, 0x09390000, 0x0b2d0000)
+ total_blobs=248 nmethods=83 adapters=100 free_code_cache=32019Kb largest_free_block=32787584
+
+Compilation events (10 events):
+Event: 0,608 Thread 0x0895f400   79   !         sun.misc.URLClassPath$JarLoader::ensureOpen (32 bytes)
+Event: 0,609 Thread 0x0895f400 nmethod 79 0x09389e48 code [0x09389f50, 0x0938a09c]
+Event: 0,611 Thread 0x0895f400   80             java.lang.String::startsWith (7 bytes)
+Event: 0,611 Thread 0x0895f400 nmethod 80 0x0938a188 code [0x0938a280, 0x0938a31c]
+Event: 0,614 Thread 0x0895f400   81             java.util.HashMap::getEntry (77 bytes)
+Event: 0,615 Thread 0x0895f400 nmethod 81 0x0938a388 code [0x0938a4a0, 0x0938a618]
+Event: 0,619 Thread 0x0895f400   82             java.util.Arrays::copyOf (19 bytes)
+Event: 0,620 Thread 0x0895f400 nmethod 82 0x0938ab88 code [0x0938ac90, 0x0938adfc]
+Event: 9,194 Thread 0x0895f400   83             sun.misc.MetaIndex::mayContain (51 bytes)
+Event: 9,194 Thread 0x0895f400 nmethod 83 0x0938aec8 code [0x0938aff0, 0x0938b178]
+
+GC Heap History (0 events):
+No events
+
+Deoptimization events (0 events):
+No events
+
+Internal exceptions (10 events):
+Event: 9,186 Thread 0x0874fc00 Threw 0x10447818 at C:\jdk7u1_32P\jdk7u7\hotspot\src\share\vm\prims\jvm.cpp:1166
+Event: 9,187 Thread 0x0874fc00 Threw 0x1044d7a8 at C:\jdk7u1_32P\jdk7u7\hotspot\src\share\vm\prims\jni.cpp:716
+Event: 9,187 Thread 0x0874fc00 Threw 0x1044d9c0 at C:\jdk7u1_32P\jdk7u7\hotspot\src\share\vm\prims\jni.cpp:716
+Event: 9,187 Thread 0x0874fc00 Threw 0x1044db30 at C:\jdk7u1_32P\jdk7u7\hotspot\src\share\vm\prims\jni.cpp:716
+Event: 9,187 Thread 0x0874fc00 Threw 0x1044df10 at C:\jdk7u1_32P\jdk7u7\hotspot\src\share\vm\prims\jvm.cpp:1166
+Event: 9,189 Thread 0x0874fc00 Threw 0x10468a18 at C:\jdk7u1_32P\jdk7u7\hotspot\src\share\vm\prims\jvm.cpp:1166
+Event: 9,189 Thread 0x0874fc00 Threw 0x1046c430 at C:\jdk7u1_32P\jdk7u7\hotspot\src\share\vm\prims\jvm.cpp:1166
+Event: 9,190 Thread 0x0874fc00 Threw 0x10470228 at C:\jdk7u1_32P\jdk7u7\hotspot\src\share\vm\prims\jvm.cpp:1166
+Event: 9,191 Thread 0x0874fc00 Threw 0x104760e8 at C:\jdk7u1_32P\jdk7u7\hotspot\src\share\vm\prims\jvm.cpp:1166
+Event: 9,194 Thread 0x0874fc00 Threw 0x1047a340 at C:\jdk7u1_32P\jdk7u7\hotspot\src\share\vm\prims\jvm.cpp:1166
+
+Events (10 events):
+Event: 9,189 loading class 0x08b23520
+Event: 9,189 loading class 0x08b23520 done
+Event: 9,189 loading class 0x0863c200
+Event: 9,189 loading class 0x0863c200 done
+Event: 9,190 loading class 0x0863c3e0
+Event: 9,190 loading class 0x0863c3e0 done
+Event: 9,191 loading class 0x0863c1a0
+Event: 9,191 loading class 0x0863c1a0 done
+Event: 9,194 loading class 0x08b2dfa0
+Event: 9,194 loading class 0x08b2dfa0 done
+
+
+Dynamic libraries:
+0x00e30000 - 0x01d87000 	C:\PROGRA~2\NETOBJ~1\NETOBJ~1\Fusion13.exe
+0x77340000 - 0x774c0000 	C:\Windows\SysWOW64\ntdll.dll
+0x76cc0000 - 0x76dd0000 	C:\Windows\syswow64\kernel32.dll
+0x74e10000 - 0x74e57000 	C:\Windows\syswow64\KERNELBASE.dll
+0x69080000 - 0x691c5000 	C:\PROGRA~2\NETOBJ~1\NETOBJ~1\NOFComponentDesignerAfx.dll
+0x76690000 - 0x76854000 	C:\Windows\syswow64\WININET.dll
+0x76e90000 - 0x76f3c000 	C:\Windows\syswow64\msvcrt.dll
+0x76860000 - 0x76864000 	C:\Windows\syswow64\api-ms-win-downlevel-user32-l1-1-0.dll
+0x76aa0000 - 0x76ba0000 	C:\Windows\syswow64\user32.DLL
+0x76580000 - 0x76610000 	C:\Windows\syswow64\GDI32.dll
+0x76be0000 - 0x76bea000 	C:\Windows\syswow64\LPK.dll
+0x76df0000 - 0x76e8d000 	C:\Windows\syswow64\USP10.dll
+0x76bf0000 - 0x76c90000 	C:\Windows\syswow64\ADVAPI32.dll
+0x76ca0000 - 0x76cb9000 	C:\Windows\SysWOW64\sechost.dll
+0x74e60000 - 0x74f50000 	C:\Windows\syswow64\RPCRT4.dll
+0x74d60000 - 0x74dc0000 	C:\Windows\syswow64\SspiCli.dll
+0x74d50000 - 0x74d5c000 	C:\Windows\syswow64\CRYPTBASE.dll
+0x76250000 - 0x76254000 	C:\Windows\syswow64\api-ms-win-downlevel-shlwapi-l1-1-0.dll
+0x76630000 - 0x76687000 	C:\Windows\syswow64\shlwapi.DLL
+0x75450000 - 0x75454000 	C:\Windows\syswow64\api-ms-win-downlevel-version-l1-1-0.dll
+0x73350000 - 0x73359000 	C:\Windows\system32\version.DLL
+0x76ba0000 - 0x76ba3000 	C:\Windows\syswow64\api-ms-win-downlevel-normaliz-l1-1-0.dll
+0x755c0000 - 0x755c3000 	C:\Windows\syswow64\normaliz.DLL
+0x75070000 - 0x75285000 	C:\Windows\syswow64\iertutil.dll
+0x76dd0000 - 0x76dd5000 	C:\Windows\syswow64\api-ms-win-downlevel-advapi32-l1-1-0.dll
+0x74f50000 - 0x75070000 	C:\Windows\syswow64\CRYPT32.dll
+0x76de0000 - 0x76dec000 	C:\Windows\syswow64\MSASN1.dll
+0x75460000 - 0x75495000 	C:\Windows\syswow64\WS2_32.dll
+0x755b0000 - 0x755b6000 	C:\Windows\syswow64\NSI.dll
+0x66e10000 - 0x6723c000 	C:\Windows\system32\mfc100.dll
+0x700a0000 - 0x7015d000 	C:\Windows\system32\MSVCR100.dll
+0x6ec90000 - 0x6ed14000 	C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_5.82.7601.18201_none_ec80f00e8593ece5\COMCTL32.dll
+0x6e6f0000 - 0x6e6f5000 	C:\Windows\system32\MSIMG32.dll
+0x75600000 - 0x7624a000 	C:\Windows\syswow64\SHELL32.dll
+0x76420000 - 0x7657c000 	C:\Windows\syswow64\ole32.dll
+0x76a10000 - 0x76a9f000 	C:\Windows\syswow64\OLEAUT32.dll
+0x75320000 - 0x75445000 	C:\Windows\syswow64\urlmon.dll
+0x76c90000 - 0x76c94000 	C:\Windows\syswow64\api-ms-win-downlevel-ole32-l1-1-0.dll
+0x65690000 - 0x65e21000 	C:\PROGRA~2\NETOBJ~1\NETOBJ~1\ToolkitPro1531vc100.dll
+0x6dd90000 - 0x6df20000 	C:\Windows\WinSxS\x86_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.7601.18120_none_72d2e82386681b36\gdiplus.dll
+0x71eb0000 - 0x71ee2000 	C:\Windows\system32\WINMM.dll
+0x763f0000 - 0x7641b000 	C:\Windows\syswow64\imagehlp.dll
+0x70160000 - 0x701c9000 	C:\Windows\system32\MSVCP100.dll
+0x6b860000 - 0x6b8a8000 	C:\PROGRA~2\NETOBJ~1\NETOBJ~1\NOFDBAfx.dll
+0x6ac10000 - 0x6ac9c000 	C:\Windows\system32\ODBC32.dll
+0x6b900000 - 0x6b947000 	C:\PROGRA~2\NETOBJ~1\NETOBJ~1\BCGPEdit160100.dll
+0x6b8f0000 - 0x6b8f8000 	C:\PROGRA~2\NETOBJ~1\NETOBJ~1\ptres.dll
+0x6b810000 - 0x6b85e000 	C:\PROGRA~2\NETOBJ~1\NETOBJ~1\DAlib.dll
+0x6b8d0000 - 0x6b8ed000 	C:\PROGRA~2\NETOBJ~1\NETOBJ~1\Pdlib.dll
+0x69220000 - 0x6924b000 	C:\PROGRA~2\NETOBJ~1\NETOBJ~1\T2HTML.dll
+0x10000000 - 0x1008b000 	C:\PROGRA~2\NETOBJ~1\NETOBJ~1\SITESLURP.dll
+0x71f50000 - 0x71f57000 	C:\Windows\system32\WSOCK32.dll
+0x73120000 - 0x73171000 	C:\Windows\system32\WINSPOOL.DRV
+0x68d60000 - 0x68da5000 	C:\PROGRA~2\NETOBJ~1\NETOBJ~1\libhunspell.dll
+0x6ff10000 - 0x6ff4c000 	C:\Windows\system32\OLEACC.dll
+0x6da80000 - 0x6da85000 	C:\Windows\system32\SHFOLDER.dll
+0x68db0000 - 0x68df4000 	C:\PROGRA~2\NETOBJ~1\NETOBJ~1\Ltdis15u.dll
+0x72af0000 - 0x72b93000 	C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.6161_none_50934f2ebcb7eb57\MSVCR90.dll
+0x68c60000 - 0x68cdb000 	C:\PROGRA~2\NETOBJ~1\NETOBJ~1\Ltkrn15u.dll
+0x6eb30000 - 0x6ebbe000 	C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.6161_none_50934f2ebcb7eb57\MSVCP90.dll
+0x68d20000 - 0x68d52000 	C:\PROGRA~2\NETOBJ~1\NETOBJ~1\Ltfil15u.dll
+0x73100000 - 0x73112000 	C:\Windows\system32\MPR.dll
+0x00460000 - 0x00488000 	C:\PROGRA~2\NETOBJ~1\NETOBJ~1\zlibwapi.dll
+0x754a0000 - 0x7551b000 	C:\Windows\syswow64\COMDLG32.dll
+0x67690000 - 0x67835000 	C:\PROGRA~2\NETOBJ~1\NETOBJ~1\Ltclr15u.dll
+0x68ce0000 - 0x68d11000 	C:\PROGRA~2\NETOBJ~1\NETOBJ~1\Ltimgclr15u.dll
+0x68bf0000 - 0x68c1a000 	C:\PROGRA~2\NETOBJ~1\NETOBJ~1\Ltimgutl15u.dll
+0x68bc0000 - 0x68bed000 	C:\PROGRA~2\NETOBJ~1\NETOBJ~1\Ltimgefx15u.dll
+0x76260000 - 0x762c0000 	C:\Windows\system32\IMM32.DLL
+0x762c0000 - 0x7638c000 	C:\Windows\syswow64\MSCTF.dll
+0x71c50000 - 0x71cd0000 	C:\Windows\system32\UxTheme.dll
+0x71c30000 - 0x71c43000 	C:\Windows\system32\dwmapi.dll
+0x6b8c0000 - 0x6b8d0000 	C:\Windows\system32\MFC100DEU.DLL
+0x6abd0000 - 0x6ac08000 	C:\Windows\system32\odbcint.dll
+0x75520000 - 0x755a3000 	C:\Windows\syswow64\CLBCatQ.DLL
+0x632d0000 - 0x63ad8000 	C:\PROGRA~2\NETOBJ~1\NETOBJ~1\NetObjects System\dede\resource.dll
+0x68b50000 - 0x68bb6000 	C:\Program Files (x86)\NetObjects\NetObjects Fusion 2013\FSI.dll
+0x6b7f0000 - 0x6b809000 	C:\Program Files (x86)\NetObjects\NetObjects Fusion 2013\PublishManager.dll
+0x6a8d0000 - 0x6a8ff000 	C:\Windows\system32\shdocvw.dll
+0x73030000 - 0x73046000 	C:\Windows\system32\CRYPTSP.dll
+0x72ff0000 - 0x7302b000 	C:\Windows\system32\rsaenh.dll
+0x72520000 - 0x7252e000 	C:\Windows\system32\RpcRtRemote.dll
+0x6cff0000 - 0x6d18e000 	C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.7601.17514_none_41e6975e2bd6f2b2\comctl32.DLL
+0x6c770000 - 0x6c8a3000 	C:\Windows\System32\msxml3.dll
+0x6d3c0000 - 0x6d3c4000 	C:\Windows\system32\api-ms-win-downlevel-shlwapi-l2-1-0.dll
+0x68c40000 - 0x68c4d000 	C:\Program Files (x86)\Common Files\Microsoft Shared\OFFICE11\MSOXMLMF.DLL
+0x6e6c0000 - 0x6e6c8000 	C:\Windows\system32\Secur32.dll
+0x6c730000 - 0x6c734000 	C:\Windows\system32\api-ms-win-downlevel-advapi32-l2-1-0.dll
+0x76870000 - 0x76a0d000 	C:\Windows\syswow64\SETUPAPI.dll
+0x76bb0000 - 0x76bd7000 	C:\Windows\syswow64\CFGMGR32.dll
+0x76610000 - 0x76622000 	C:\Windows\syswow64\DEVOBJ.dll
+0x6cef0000 - 0x6cfe5000 	C:\Windows\system32\propsys.dll
+0x730c0000 - 0x730e1000 	C:\Windows\system32\ntmarta.dll
+0x74dc0000 - 0x74e05000 	C:\Windows\syswow64\WLDAP32.dll
+0x73320000 - 0x7332b000 	C:\Windows\system32\profapi.dll
+0x6d190000 - 0x6d2e7000 	C:\Windows\System32\msxml6.dll
+0x67970000 - 0x67a1a000 	C:\Program Files (x86)\NetObjects\NetObjects Fusion 2013\CSSParser.dll
+0x67b00000 - 0x67b69000 	C:\PROGRA~2\NETOBJ~1\NETOBJ~1\LFCmp15U.DLL
+0x67560000 - 0x675d9000 	C:\Windows\system32\mscms.dll
+0x73330000 - 0x73347000 	C:\Windows\system32\USERENV.dll
+0x6a840000 - 0x6a84a000 	C:\PROGRA~2\NETOBJ~1\NETOBJ~1\LFBmp15U.DLL
+0x6a830000 - 0x6a838000 	C:\PROGRA~2\NETOBJ~1\NETOBJ~1\LFPcx15U.DLL
+0x69280000 - 0x6928b000 	C:\PROGRA~2\NETOBJ~1\NETOBJ~1\LFGif15U.DLL
+0x69060000 - 0x6906e000 	C:\PROGRA~2\NETOBJ~1\NETOBJ~1\ToolkitPro.ResourceDe.dll
+0x66ae0000 - 0x66bff000 	C:\Program Files (x86)\NetObjects\NetObjects Fusion 2013\NOFDBConn.dll
+0x62f80000 - 0x632cc000 	C:\Program Files (x86)\Java\jre7\bin\client\jvm.dll
+0x77310000 - 0x77315000 	C:\Windows\syswow64\PSAPI.DLL
+0x69070000 - 0x6907c000 	C:\Program Files (x86)\Java\jre7\bin\verify.dll
+0x67ae0000 - 0x67b00000 	C:\Program Files (x86)\Java\jre7\bin\java.dll
+0x67950000 - 0x67963000 	C:\Program Files (x86)\Java\jre7\bin\zip.dll
+0x68f10000 - 0x68f19000 	C:\Program Files (x86)\NetObjects\NetObjects Fusion 2013\NFXPort.dll
+0x6c550000 - 0x6c5af000 	C:\Windows\system32\SXS.DLL
+0x65340000 - 0x65482000 	C:\Program Files (x86)\Java\jre7\bin\awt.dll
+0x6da90000 - 0x6db7b000 	C:\Windows\system32\dbghelp.dll
+
+VM Arguments:
+jvm_args: -Xincgc -Dswing.defaultlaf=com.sun.java.swing.plaf.windows.WindowsLookAndFeel 
+java_command: <unknown>
+Launcher Type: generic
+
+Environment Variables:
+PATH=C:\Program Files (x86)\NetObjects\NetObjects Fusion 2013;C:\Program Files (x86)\Java\jre7\bin\client;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Common Files\Microsoft Shared\Windows Live;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files (x86)\EgisTec MyWinLocker\x64;C:\Program Files (x86)\EgisTec MyWinLocker\;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x64;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Diskeeper Corporation\ExpressCache\;C:\Program Files (x86)\IVI Foundation\VISA\WinNT\Bin;C:\Program Files (x86)\T-Online\T-Online_Software_6\Basis-Software\Basis2\
+USERNAME=Ultra
+OS=Windows_NT
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 42 Stepping 7, GenuineIntel
+
+
+
+---------------  S Y S T E M  ---------------
+
+OS: Windows 7 , 64 bit Build 7601 Service Pack 1
+
+CPU:total 4 (2 cores per cpu, 2 threads per core) family 6 model 42 stepping 7, cmov, cx8, fxsr, mmx, sse, sse2, sse3, ssse3, sse4.1, sse4.2, popcnt, avx, ht, tsc, tscinvbit
+
+Memory: 4k page, physical 4023664k(2146400k free), swap 8045464k(5105480k free)
+
+vm_info: Java HotSpot(TM) Client VM (23.3-b01) for windows-x86 JRE (1.7.0_07-b11), built on Sep  7 2012 01:40:56 by "java_re" with unknown MS VC++:1600
+
+time: Fri Jan 03 20:32:01 2014
+elapsed time: 10 seconds
+

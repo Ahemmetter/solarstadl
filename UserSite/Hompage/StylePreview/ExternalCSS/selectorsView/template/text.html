@@ -1,0 +1,71 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Cache-Control" content="no-cache">
+<style>
+  @import url("../../preview.css");
+  @import url("../css/ui.css");
+</style>
+</head>
+<body id="preview" onLoad="parent.initPreview(document);" _onClick="parent.setSelector();" bgcolor="#ffffff">
+<div class="nof_ui" style="margin-top: 0px;"><span class="nof_ui_heading">Haupttext</span></div>
+<div onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value="BODY">
+  <div class="nof_tag_body">Beispiel für Haupttext-Design. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec felis tellus, tempus non, convallis commodo, euismod eget, sapien. Donec nisi magna, congue a, laoreet non, porttitor eget, felis.</div>
+</div>
+<div class="nof_ui"><span class="nof_ui_heading">Normal (P)</span></div>
+<div onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value="p"><p>Beispiel für Absatztext-Design. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec felis tellus, tempus non, convallis commodo, euismod eget, sapien. Donec nisi magna, congue a, laoreet non, porttitor eget, felis.</p></div>
+<div class="nof_ui"><span class="nof_ui_heading">Textobjekt</span></div>
+<div onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".TextObject">
+  <div class="TextObject">Beispiel für Textobjekt-Design. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec felis tellus, tempus non, convallis commodo, euismod eget, sapien. Donec nisi magna, congue a, laoreet non, porttitor eget, felis.</div>
+</div>
+<div class="nof_ui"><span class="nof_ui_heading">Link</span></div>
+<dl class="nof_ui_linksList">
+  <dt><span onClick="parent.setSelector(this);" class="nof_ui_container" style="display: inline-block;"><input type="hidden" value="A"><a href="JavaScript:void(0);" hidefocus="true"><span class="nof_text_link">Verknüpft</span></a></span></dt>
+  <dt><span onClick="parent.setSelector(this);" class="nof_ui_container" style="display: inline-block;"><input type="hidden" value="A:visited"><a href="JavaScript:void(0);" hidefocus="true"><span class="nof_text_visited">Besuchter Link</span></a></span></dt>
+  <dt><span onClick="parent.setSelector(this);" class="nof_ui_container" style="display: inline-block;"><input type="hidden" value="A:active"><a href="JavaScript:void(0);" hidefocus="true"><span class="nof_text_active" >Aktiver Link</span></a></span></dt>
+  <dt><span onClick="parent.setSelector(this);" class="nof_ui_container" style="display: inline-block;"><input type="hidden" value="A:hover"><a href="JavaScript:void(0);" hidefocus="true"><span class="nof_text_hover">Hover-Link</span></a></span></dt>
+</dl>
+<div class="nof_ui"><span class="nof_ui_heading">Text der Navigationsleiste.</span></div>
+<span onClick="parent.setSelector(this);" class="nof_ui_container" style="display: inline-block;"><input type="hidden" value=".TextNavBar"><span class="TextNavBar">[<a href="JavaScript:void(0);" hidefocus="true"><span class="nof_text_link">Seite 1</span></a>] [<a href="JavaScript:void(0);" hidefocus="true"><span class="nof_text_link">Seite 2</span></a>] [<a href="JavaScript:void(0);" hidefocus="true"><span class="nof_text_link">Seite 3</span></a>]</span></span>
+<div class="nof_ui"><span class="nof_ui_heading">Überschriften.</span></div>
+<div onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value="h1"><h1>Überschrift 1 (H1)</h1></div>
+<div onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value="h2"><h2>Überschrift 2 (H2)</h2></div>
+<div onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value="h3"><h3>Überschrift 3 (H3)</h3></div>
+<div onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value="h4"><h4>Überschrift 4 (H4)</h4></div>
+<div onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value="h5"><h5>Überschrift 5 (H5)</h5></div>
+<div onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value="h6"><h6>Überschrift 6 (H6)</h6></div>
+<div class="nof_ui"><span class="nof_ui_heading">Besondere Texttypen</span></div>
+<div onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value="pre"><pre>Vorformatierter Text (PRE)</pre></div>
+<div onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value="blockquote"><blockquote>Blockformat (&#34;&#34;)</blockquote></div>
+<div onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value="address"><address>Adresse</address></div>
+<div class="nof_ui"><span class="nof_ui_heading">Geordnete Liste.</span></div>
+<div onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value="ol">
+  <ol style="margin-top:0px;">
+    <li><span onClick="parent.setSelector(this.parentElement);" class="nof_ui_container"><input type="hidden" value="ol li">Nummeriertes Element I</span></li>
+    <li><span onClick="parent.setSelector(this.parentElement);" class="nof_ui_container"><input type="hidden" value="ol li">Nummeriertes Element II</span></li>
+    <li><span onClick="parent.setSelector(this.parentElement);" class="nof_ui_container"><input type="hidden" value="ol li">Nummeriertes Element III</span></li>
+  </ol>
+</div>
+<div class="nof_ui"><span class="nof_ui_heading">Ungeordnete Liste.</span></div>
+<div onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value="ul">
+  <ul style="margin-top:0px;margin-bottom:0px;">
+    <li><span onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value="ul li">Stichpunkt I</span></li>
+    <li style="list-style-type:none;width:100%;">
+      <ul style="padding-top: 0px;">
+        <li><span onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value="ul li li">Stichpunkt II</span></li>
+        <li style="list-style-type:none;width:100%;">
+          <ul style="padding-top: 0px;">
+            <li><span onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value="ul li li li">Stichpunkt III</span></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</div>
+<div class="nof_ui"><span class="nof_ui_heading">Bildlaufleisten</span></div>
+<span onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value="body"><textarea style="width: 300px; height: 100px;">Beispiel für Bildlaufleisten-Design. Ändern Sie die Farben im Abschnitt „Benutzeroberfläche“ auf der Palette „CSS - Eigenschaften“. Die Browser-Unterstützung für dieses Design ist eingeschränkt.</textarea></span>
+<div id="selection"></div>
+</body>
+</html>

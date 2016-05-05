@@ -1,0 +1,259 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Cache-Control" content="no-cache">
+<style>
+  @import url("../../preview.css");
+  @import url("../css/ui.css");
+</style>
+</head>
+<body id="preview" onLoad="parent.initPreview(document);" _onClick="parent.setSelector();" bgcolor="#ffffff">
+<div class="nof_ui" style="margin-top: 0px;"><span class="nof_ui_heading">Formular-Handler</span></div>
+<!--
+<div onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_formsHandler_fieldset"><fieldset class="nof_formsHandler_fieldset"><span onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_formsHandler_legend"><legend class="nof_formsHandler_legend">Fieldset/Legend</legend></span></fieldset></div>
+<br>
+-->
+<div onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_formsHandler_contentCell">
+  <table width="100%" border="0" cellpadding="0" cellspacing="0">
+    <tr>
+      <td class="nof_formsHandler_contentCell"><span onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_formsHandler_label"><span class="nof_formsHandler_text"><label class="nof_formsHandler_label" for="textbox">Textfeld:</label></span></span></td>
+      <td class="nof_formsHandler_contentCell" width="100%"><span onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_formsHandler_input_text"><input name="textbox" type="text" id="textbox" value="Beispiel für Textfeld" class="nof_formsHandler_input_text"></span></td>
+    </tr>
+    <tr>
+      <td class="nof_formsHandler_contentCell"><span onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_formsHandler_label"><span class="nof_formsHandler_text"><label class="nof_formsHandler_label" for="password">Kennwort:</label></span></span></td>
+      <td class="nof_formsHandler_contentCell" width="100%"><span onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_formsHandler_input_password"><input name="password" type="password" id="password" value="password" class="nof_formsHandler_input_password"></span></td>
+    </tr>
+    <tr>
+      <td class="nof_formsHandler_contentCell" valign="top"><span onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_formsHandler_label"><span class="nof_formsHandler_text"><label class="nof_formsHandler_label" for="listbox">Listenfeld:</label></span></span></td>
+      <td class="nof_formsHandler_contentCell" width="100%"><span onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_formsHandler_listBox">
+        <select name="listbox" size="4" id="listbox" class="nof_formsHandler_listBox">
+          <option class="nof_formsHandler_listBox_option">Beispiel für Option</option>
+          <option class="nof_formsHandler_listBox_option">Option 2</option>
+          <option class="nof_formsHandler_listBox_option">Option 3</option>
+          <!-- <optgroup label="Option Group" class="nof_formsHandler_listBox_optgroup"> -->
+          <option class="nof_formsHandler_listBox_option">Option 4</option>
+          <option class="nof_formsHandler_listBox_option">Option 5</option>
+          <option class="nof_formsHandler_listBox_option">Option 6</option>
+          <!-- </optgroup> -->
+        </select>
+        </span></td>
+    </tr>
+    <tr>
+      <td class="nof_formsHandler_contentCell"><span onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_formsHandler_label"><span class="nof_formsHandler_text"><label class="nof_formsHandler_label" for="dropdown">Dropdown:</label></span></span></td>
+      <td class="nof_formsHandler_contentCell" width="100%"><span onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_formsHandler_select">
+        <select name="dropdown" id="dropdown" class="nof_formsHandler_select">
+          <option class="nof_formsHandler_select_option">Beispiel für Option</option>
+          <option class="nof_formsHandler_select_option">Option 2</option>
+          <option class="nof_formsHandler_select_option">Option 3</option>
+          <!-- <optgroup label="Option Group" class="nof_formsHandler_select_optgroup"> -->
+          <option class="nof_formsHandler_select_option">Option 4</option>
+          <option class="nof_formsHandler_select_option">Option 5</option>
+          <option class="nof_formsHandler_select_option">Option 6</option>
+          <!-- </optgroup> -->
+        </select>
+        </span></td>
+    </tr>
+    <tr>
+      <td class="nof_formsHandler_contentCell" valign="top"><span onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_formsHandler_label"><span class="nof_formsHandler_text"><label class="nof_formsHandler_label" for="textarea">Textbereich:</label></span></span></td>
+      <td class="nof_formsHandler_contentCell" width="100%"><span onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_formsHandler_textarea"><textarea name="textarea" rows="5" id="textarea" class="nof_formsHandler_textarea">Beispiel für Textbereich-Design. Zum Bearbeiten hier klicken.</textarea></span></td>
+    </tr>
+    <tr>
+      <td class="nof_formsHandler_contentCell" valign="top"><span onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_formsHandler_label"><span class="nof_formsHandler_text"><label class="nof_formsHandler_label" >Optionsschaltfläche:</label></span></span></td>
+      <td class="nof_formsHandler_contentCell" width="100%"><span onClick="parent.setSelector(this);" class="nof_ui_container" id="form_input_radio1"><input type="hidden" value=".nof_formsHandler_input_radio"><input name="radiobuttons" type="radio" value="radio" checked="CHECKED" class="nof_formsHandler_input_radio" hidefocus="true"></span><span style="cursor:pointer" onclick="parent.setSelector(document.getElementById('form_input_radio1'))"><span class="nof_formsHandler_text">Beispiel für Optionsschaltflächen-Design.</span></span><br>
+        <span onClick="parent.setSelector(this);" class="nof_ui_container" id="form_input_radio2"><input type="hidden" value=".nof_formsHandler_input_radio"><input name="radiobuttons" type="radio" value="radio" class="nof_formsHandler_input_radio" hidefocus="true"></span><span style="cursor:pointer" onclick="parent.setSelector(document.getElementById('form_input_radio2'))"><span class="nof_formsHandler_text">Zum Bearbeiten hier klicken.</span></span></td>
+    </tr>
+    <tr>
+      <td class="nof_formsHandler_contentCell"><span onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_formsHandler_label"><span class="nof_formsHandler_text"><label class="nof_formsHandler_label" for="filebox">Datei:</label></span></span></td>
+      <td class="nof_formsHandler_contentCell" width="100%"><span onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_formsHandler_input_file"><input name="filebox" type="file" onClick="return false;" id="filebox" class="nof_formsHandler_input_file" ></span></td>
+    </tr>
+    <tr>
+      <td class="nof_formsHandler_contentCell"><span onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_formsHandler_label"><span class="nof_formsHandler_text"><label class="nof_formsHandler_label" for="checkbox">Kontrollkästchen:</label></span></span></td>
+      <td class="nof_formsHandler_contentCell" width="100%"><span onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_formsHandler_input_checkbox"><input name="checkbox" type="checkbox" id="checkbox" value="checkbox" checked="checked" class="nof_formsHandler_input_checkbox" hidefocus="true"></span></td>
+    </tr>
+    <tr>
+      <td class="nof_formsHandler_contentCell" valign="top">&nbsp;</td>
+      <td class="nof_formsHandler_contentCell" width="100%"><span onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_formsHandler_input_button"><input name="button" type="button" value="Schaltfläche" class="nof_formsHandler_input_button"></span><span onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_formsHandler_input_reset"><input type="reset" value="Zurücksetzen" class="nof_formsHandler_input_reset" ></span><span onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_formsHandler_input_submit"><input name="submit" type="button" value="Senden" class="nof_formsHandler_input_submit" ></span></td>
+    </tr>
+  </table>
+</div>
+<div class="nof_ui"><span class="nof_ui_heading">Manager - Datensatz bearbeiten</span></div>
+<div onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_formsHandler_header">
+  <table width="100%" border="0" cellpadding="0" cellspacing="0" class="nof_formsHandler_header">
+    <tr>
+      <td><span onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_formsHandler_heading"><span class="nof_formsHandler_text"><span class="nof_formsHandler_heading">Datensatz bearbeiten</span></span></span></td>
+    </tr>
+  </table>
+</div>
+<div onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_formsHandler_content">
+  <div class="nof_formsHandler_content">
+    <table width="100%" border="0" cellpadding="0" cellspacing="0">
+      <tbody>
+        <tr>
+          <td class="nof_formsHandler_contentCell"><span onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_formsHandler_label"><span class="nof_formsHandler_text"><label class="nof_formsHandler_label" for="name">Name:</label></span></span></td>
+          <td width="100%" class="nof_formsHandler_contentCell"><span onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_formsHandler_input_text"><input name="name" type="text" id="name" value="Herr Schmid                    " class="nof_formsHandler_input_text"></span></td>
+        </tr>
+        <tr>
+          <td class="nof_formsHandler_contentCell"><span onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_formsHandler_label"><span class="nof_formsHandler_text"><label class="nof_formsHandler_label" for="address">Adresse:</label></span></span></td>
+          <td width="100%" class="nof_formsHandler_contentCell"><span onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_formsHandler_input_text"><input name="address" type="text" id="address" value="Straße 1234                    " class="nof_formsHandler_input_text"></span></td>
+        </tr>
+        <tr>
+          <td class="nof_formsHandler_contentCell">&nbsp; </td>
+          <td width="100%" class="nof_formsHandler_contentCell"><span onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_formsHandler_input_button"><input name="button" type="button" value="Speichern" class="nof_formsHandler_input_button" ></span><span onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_formsHandler_input_button"><input name="button" type="button" value="Zurücksetzen" class="nof_formsHandler_input_button" ></span><span onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_formsHandler_input_button"><input name="button" type="button" value="Zurück" class="nof_formsHandler_input_button" ></span></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+<div onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_formsHandler_footer">
+  <table border="0" cellpadding="0" cellspacing="0" width="100%" class="nof_formsHandler_footer">
+    <tbody>
+      <tr>
+        <td>&nbsp;</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+<div class="nof_ui"><span class="nof_ui_heading">Manager - Datensatz anzeigen </span></div>
+<div onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_formsHandler_header">
+  <table width="100%" border="0" cellpadding="0" cellspacing="0" class="nof_formsHandler_header">
+    <tr>
+      <td><span onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_formsHandler_heading"><span class="nof_formsHandler_text"><span class="nof_formsHandler_heading">Datensatz anzeigen</span></span></span></td>
+    </tr>
+  </table>
+</div>
+<div onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_formsHandler_content">
+  <div class="nof_formsHandler_content">
+    <table width="100%" border="0" cellpadding="0" cellspacing="0" >
+      <tbody>
+        <tr>
+          <td class="nof_formsHandler_contentCell"><span onClick="parent.setSelector(this);" class="nof_ui_container"><span class="nof_formsHandler_text"><input type="hidden" value=".nof_formsHandler_label"><label class="nof_formsHandler_label">Name:</label></span></span></td>
+          <td width="100%" class="nof_formsHandler_contentCell"><span onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_formsHandler_text"><span class="nof_formsHandler_text">Herr Schmid</span></span></td>
+        </tr>
+        <tr>
+          <td class="nof_formsHandler_contentCell"><span onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_formsHandler_label"><span class="nof_formsHandler_text"><label class="nof_formsHandler_label">Adresse:</label></span></span></td>
+          <td width="100%" class="nof_formsHandler_contentCell"><span onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_formsHandler_text"><span class="nof_formsHandler_text">Straße 1234</span></span></td>
+        </tr>
+        <tr>
+          <td class="nof_formsHandler_contentCell">&nbsp;</td>
+          <td width="100%" class="nof_formsHandler_contentCell"><span onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_formsHandler_input_button"><input name="button" type="button" value="Zurück" class="nof_formsHandler_input_button" ></span></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+<div onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_formsHandler_footer">
+  <table border="0" cellpadding="0" cellspacing="0" width="100%" class="nof_formsHandler_footer">
+    <tbody>
+      <tr>
+        <td>&nbsp;</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+<div class="nof_ui"><span class="nof_ui_heading">Manager - Datensatz hinzufügen</span></div>
+<div onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_formsHandler_header">
+  <table width="100%" border="0" cellpadding="0" cellspacing="0" class="nof_formsHandler_header">
+    <tr>
+      <td><span onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_formsHandler_heading"><span class="nof_formsHandler_text"><span class="nof_formsHandler_heading">Eintrag hinzufügen</span></span></span></td>
+    </tr>
+  </table>
+</div>
+<div onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_formsHandler_content">
+  <div class="nof_formsHandler_content">
+    <table width="100%" border="0" cellpadding="0" cellspacing="0">
+      <tbody>
+        <tr>
+          <td class="nof_formsHandler_contentCell"><span onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_formsHandler_label"><span class="nof_formsHandler_text"><label class="nof_formsHandler_label" for="name2">Name:</label></span></span></td>
+          <td width="100%" class="nof_formsHandler_contentCell"><span onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_formsHandler_input_text"><input name="name2" type="text" id="name2" value="                                        " class="nof_formsHandler_input_text"></span></td>
+        </tr>
+        <tr>
+          <td class="nof_formsHandler_contentCell"><span onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_formsHandler_label"><span class="nof_formsHandler_text"><label class="nof_formsHandler_label" for="address2">Adresse:</label></span></span></td>
+          <td width="100%" class="nof_formsHandler_contentCell"><span onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_formsHandler_input_text"><input name="address2" type="text" id="address2" value="                                        " class="nof_formsHandler_input_text"></span></td>
+        </tr>
+        <tr>
+          <td class="nof_formsHandler_contentCell">&nbsp; </td>
+          <td width="100%" class="nof_formsHandler_contentCell"><span onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_formsHandler_input_button"><input name="button" type="button" value="Speichern" class="nof_formsHandler_input_button" ></span><span onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_formsHandler_input_button"><input name="button" type="button" value="Zurück" class="nof_formsHandler_input_button" ></span></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+<div onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_formsHandler_footer">
+  <table border="0" cellpadding="0" cellspacing="0" width="100%" class="nof_formsHandler_footer">
+    <tbody>
+      <tr>
+        <td>&nbsp;</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+<div class="nof_ui"><span class="nof_ui_heading">Manager - Einträge durchsuchen</span></div>
+<div onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_formsHandler_header">
+  <table width="100%" border="0" cellpadding="0" cellspacing="0" class="nof_formsHandler_header">
+    <tr>
+      <td><span onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_formsHandler_heading"><span class="nof_formsHandler_text"><span class="nof_formsHandler_heading">Einträge durchsuchen</span></span></span></td>
+    </tr>
+  </table>
+</div>
+<div onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_formsHandler_content">
+  <div class="nof_formsHandler_content">
+    <table width="100%" border="0" cellpadding="0" cellspacing="0">
+      <tbody>
+        <tr>
+          <td class="nof_formsHandler_columnHeadingRow">&nbsp; </td>
+          <td class="nof_formsHandler_columnHeadingRow"><span onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_formsHandler_columnHeadingRow"><span class="nof_formsHandler_text"><span class="nof_formsHandler_columnHeading">Name</span></span></span></td>
+          <td class="nof_formsHandler_columnHeadingRow"><span onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_formsHandler_columnHeadingRow"><span class="nof_formsHandler_text"><span class="nof_formsHandler_columnHeading">Adresse</span></span></span></td>
+        </tr>
+        <tr>
+          <td class="nof_formsHandler_contentCell" align="right"><span onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_formsHandler_input_radio"><input name="radiobuttons2" type="radio" value="radio" checked="CHECKED" class="nof_formsHandler_input_radio" hidefocus="true"></span></td>
+          <td class="nof_formsHandler_contentCell"><span onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_formsHandler_text"><span class="nof_formsHandler_text">Herr Schmid</span></span></td>
+          <td class="nof_formsHandler_contentCell"><span onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_formsHandler_text"><span class="nof_formsHandler_text">Straße 1234</span></span></td>
+        </tr>
+        <tr>
+          <td class="nof_formsHandler_contentCell" align="right"><span onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_formsHandler_input_radio"><input name="radiobuttons2" type="radio" value="radio" class="nof_formsHandler_input_radio" hidefocus="true"></span></td>
+          <td class="nof_formsHandler_contentCell"><span onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_formsHandler_text"><span class="nof_formsHandler_text">Frau Braun</span></span></td>
+          <td class="nof_formsHandler_contentCell"><span onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_formsHandler_text"><span class="nof_formsHandler_text">Allee 5555</span></span></td>
+        </tr>
+        <tr>
+          <td class="nof_formsHandler_contentCell" colspan="6" align="center"><span onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_formsHandler_input_button"><input name="button" type="button" value="Hinzufügen" class="nof_formsHandler_input_button" ></span><span onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_formsHandler_input_button"><input name="button" type="button" value="Bearbeiten" class="nof_formsHandler_input_button" ></span><span onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_formsHandler_input_button"><input name="button" type="button" value="Ansicht" class="nof_formsHandler_input_button" ></span><span onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_formsHandler_input_button"><input name="button" type="button" value="Entfernen" class="nof_formsHandler_input_button" ></span></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+<div onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_formsHandler_footer">
+  <table border="0" cellpadding="0" cellspacing="0" width="100%" class="nof_formsHandler_footer">
+    <tbody>
+      <tr>
+        <td><span onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_formsHandler_navigationLink"><span class="nof_formsHandler_text"><span class="nof_formsHandler_navigation"><a href="JavaScript:void(0);" class="nof_formsHandler_link"><span class="nof_formsHandler_linkNavigation">&#60;&#60; Erster</span></a>&nbsp;&nbsp;<a href="JavaScript:void(0);" class="nof_formsHandler_link"><span class="nof_formsHandler_linkNavigation">&#60; Vorheriger</span></a></span></span></span></td>
+        <td align="right"><span onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_formsHandler_navigationLink"><span class="nof_formsHandler_text"><span class="nof_formsHandler_navigation"><a href="JavaScript:void(0);" class="nof_formsHandler_link"><span class="nof_formsHandler_navigationLink">Nächster &#62;</span></a>&nbsp;&nbsp;<a href="JavaScript:void(0);" class="nof_formsHandler_link"><span class="nof_formsHandler_navigationLink">Letzter &#62; &#62;</span></a></span></span></span></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+<div class="nof_ui"><span class="nof_ui_heading">Meldungen </span></div>
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+  <tbody>
+    <tr>
+      <td class="nof_formsHandler_contentCell"><span onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_formsHandler_successText"><span class="nof_formsHandler_text"><span class="nof_formsHandler_successText">Die Daten wurden hinzugefügt.</span></span></span></td>
+    </tr>
+  </tbody>
+</table>
+<br>
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+  <tbody>
+    <tr>
+      <td class="nof_formsHandler_contentCell">
+        <ul class="nof_formsHandler_errorText">
+          <li><span onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_formsHandler_errorText"><span class="nof_formsHandler_text"><span class="nof_formsHandler_errorText">Name ist erforderlich</span></span></span></li>
+          <li><span onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_formsHandler_errorText"><span class="nof_formsHandler_text"><span class="nof_formsHandler_errorText">Adresse ist erforderlich</span></span></span></li>
+        </ul>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<div id="selection"></div>
+</body>
+</html>

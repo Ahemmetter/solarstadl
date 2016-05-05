@@ -1,0 +1,12 @@
+1und1 Kundenlogin:
+
+Domain: www.solarstadl.de
+Passwort 1und1 : 3YcFMCXz
+
+Sicherheitsfrage : Großvater Beruf
+Antwort : bauer
+
+Für FTP-Programm (Filezilla)
+Server: www.solarstadl.de
+FTP-Benutzer:u36005696
+Passwort:SOlara2011

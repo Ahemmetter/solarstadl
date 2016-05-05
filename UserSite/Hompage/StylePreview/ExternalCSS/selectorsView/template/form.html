@@ -1,0 +1,81 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Cache-Control" content="no-cache">
+<style>
+  @import url("../../preview.css");
+  @import url("../css/ui.css");
+</style>
+</head>
+<body id="preview" id="preview" onLoad="parent.initPreview(document);" _onClick="parent.setSelector();" bgcolor="#ffffff">
+<div class="nof_ui" style="margin-top: 0px;"><span class="nof_ui_heading">Formular</span></div>
+<!--
+<div onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value="fieldset"><fieldset><span onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value="legend"><legend>Fieldset/Legend</legend></span></fieldset></div>
+<br>
+-->
+<table>
+  <tr>
+    <td><span onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value="label"><label for="textbox">Textfeld:</label></span></td>
+    <td><span onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_form_input_text"><input name="textbox" type="text" id="textbox" value="Beispiel für Textfeld" class="nof_form_input_text" ></span></td>
+  </tr>
+  <tr>
+    <td><span onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value="label"><label for="password">Kennwort:</label></span></td>
+    <td><span onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_form_input_password"><input name="password" type="password" id="password" value="password" class="nof_form_input_password" ></span></td>
+  </tr>
+  <tr>
+    <td valign="top"><span onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value="label"><label for="listbox">Listenfeld: </label></span></td>
+    <td><span onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_form_listBox">
+      <select name="listbox" size="4" id="listbox" class="nof_form_listBox">
+        <option class="nof_form_listBox_option">Beispiel für Option</option>
+        <option class="nof_form_listBox_option">Option 2</option>
+        <option class="nof_form_listBox_option">Option 3</option>
+        <!-- <optgroup label="Option Group" class="nof_form_listBox_optgroup"> -->
+        <option class="nof_form_listBox_option">Option 4</option>
+        <option class="nof_form_listBox_option">Option 5</option>
+        <option class="nof_form_listBox_option">Option 6</option>
+        <!-- </optgroup> -->
+      </select>
+      </span></td>
+  </tr>
+  <tr>
+    <td><span onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value="label"><label for="dropdown">Dropdown:</label></span></td>
+    <td><span onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value="select">
+      <select name="dropdown" id="dropdown">
+        <option>Beispiel für Option</option>
+        <option>Option 2</option>
+        <option>Option 3</option>
+        <!-- <optgroup label="Option Group"> -->
+        <option>Option 4</option>
+        <option>Option 5</option>
+        <option>Option 6</option>
+        <!-- </optgroup> -->
+      </select>
+      </span></td>
+  </tr>
+  <tr>
+    <td valign="top"><span onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value="label"><label for="textarea">Textbereich:</label></span></td>
+    <td><span onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value="textarea"><textarea name="textarea" rows="5" id="textarea">Beispiel für Textbereich-Design. Zum Bearbeiten hier klicken.</textarea></span></td>
+  </tr>
+  <tr>
+    <td valign="top"><span onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value="label"><label>Optionsschaltfläche:</label></span></td>
+    <td><span onClick="parent.setSelector(this);" class="nof_ui_container" id="form_input_radio1"><input type="hidden" value=".nof_form_input_radio"><input name="radiobuttons" type="radio" value="radio" checked="checked" class="nof_form_input_radio" hidefocus="true"></span><span style="cursor:pointer" onclick="parent.setSelector(document.getElementById('form_input_radio1'))">Beispiel für Optionsschaltflächen-Design.</span><br>
+      <span onClick="parent.setSelector(this);" class="nof_ui_container" id="form_input_radio2"><input type="hidden" value=".nof_form_input_radio"><input name="radiobuttons" type="radio" value="radio" class="nof_form_input_radio" hidefocus="true"></span><span style="cursor:pointer" onclick="parent.setSelector(document.getElementById('form_input_radio2'))">Zum Bearbeiten hier klicken.</span></td>
+  </tr>
+  <tr>
+    <td><span onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value="label"><label for="filebox">Datei:</label></span></td>
+    <td><span onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_form_input_file"><input name="filebox" type="file" onClick="return false;" id="filebox" class="nof_form_input_file"></span></td>
+  </tr>
+  <tr>
+    <td><span onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value="label"><label for="checkbox">Kontrollkästchen:</label></span></td>
+    <td><span onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_form_input_checkbox"><input name="checkbox" type="checkbox" id="checkbox" value="checkbox" checked="checked" class="nof_form_input_checkbox" hidefocus="true"></span></td>
+  </tr>
+  <tr>
+    <td valign="top">&nbsp;</td>
+    <td><span onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_form_input_button"><input name="button" type="button" value="Schaltfläche" class="nof_form_input_button" ></span><span onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_form_input_reset"><input type="reset" value="Zurücksetzen" class="nof_form_input_reset" ></span><span onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_form_input_submit"><input name="submit" type="button" value="Senden" class="nof_form_input_submit" ></span></td>
+  </tr>
+</table>
+<div id="selection"></div>
+</body>
+</html>

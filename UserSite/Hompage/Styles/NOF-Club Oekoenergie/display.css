@@ -1,0 +1,137 @@
+/* CSS-Definitionsdatei, die SiteStyle-Stylesheets enthält */
+BODY { font-family: Lato; font-size: 11px; color: rgb(60,60,60)} .background
+{
+	font-family : Lato;
+	font-size : 11px;
+	color : rgb(60,60,60)
+}
+A:active { font-family: Verdana,  Tahoma,  Arial,  Helvetica,  Sans-serif; font-size: 11px; color: rgb(255,0,0); text-decoration: none } .active { font-family: Verdana,  Tahoma,  Arial,  Helvetica,  Sans-serif; font-size: 11px; color: rgb(255,0,0); text-decoration: none } A:link { font-family: Verdana,  Tahoma,  Arial,  Helvetica,  Sans-serif; font-size: 11px; color: rgb(84,142,24); text-decoration: none } UL { font-family: Verdana,  Tahoma,  Arial,  Helvetica,  Sans-serif; font-size: 11px; color: rgb(60,60,60); list-style-image: url( "file:///C:/Users/Nitrox/Documents/Dokumente/Skripte/html/Homepage/UserSite/Hompage/Styles/NOF-Club Oekoenergie/Images/pfeil_weiss_gruen.gif" )} A:visited { font-family: Verdana,  Tahoma,  Arial,  Helvetica,  Sans-serif; font-size: 11px; color: rgb(84,142,24); text-decoration: none } .visited { font-family: Verdana,  Tahoma,  Arial,  Helvetica,  Sans-serif; font-size: 11px; color: rgb(84,142,24); text-decoration: none } .TextObject { font-family: Lato; font-size: 11px; color: rgb(60,60,60)} H1 { font-family: Arial,  Helvetica,  Geneva,  Sans-serif; font-size: 18px; color: rgb(60,70,80); font-weight: bold} H2 { font-family: Arial,  Helvetica,  Geneva,  Sans-serif; font-size: 15px; color: rgb(60,70,80); font-weight: bold} P { font-family: Lato; font-size: 11px; color: rgb(60,60,60)} H3 { font-family: Arial,  Helvetica,  Geneva,  Sans-serif; font-size: 18px; color: rgb(202,9,9); font-weight: bold} OL { font-family: Verdana,  Tahoma,  Arial,  Helvetica,  Sans-serif; font-size: 11px; color: rgb(60,60,60)} H4 { font-family: Arial,  Helvetica,  Geneva,  Sans-serif; font-size: 18px; color: rgb(84,142,24); font-weight: normal; font-style: normal} .TextNavBar { font-family: Verdana,  Tahoma,  Arial,  Helvetica,  Sans-serif; font-size: 11px; color: rgb(84,142,24); text-decoration: none } H5 { font-family: Arial,  Helvetica,  Geneva,  Sans-serif; font-size: 14px; color: rgb(84,142,24); font-weight: normal; font-style: normal} H6 { font-family: Arial,  Helvetica,  Geneva,  Sans-serif; font-size: 11px; color: rgb(84,142,24); font-weight: normal; font-style: normal} A:hover { font-family: Verdana,  Tahoma,  Arial,  Helvetica,  Sans-serif; font-size: 11px; color: rgb(84,142,24); font-style: italic; text-decoration: none ; background-color: rgb(204,255,153)} 
+.hover { font-family: Verdana,  Tahoma,  Arial,  Helvetica,  Sans-serif; font-size: 11px; color: rgb(84,142,24); font-style: italic; text-decoration: none ; background-color: rgb(204,255,153)} 
+.nof_NOFClubOekoenergieBanners1-Banner1 {
+font-family:MS Sans Serif ; font-size:13px; font-weight:400; font-style:normal; color:#000000 
+}
+
+.nof_NOFClubOekoenergieNavbar2-Regular {
+font-family:Arial; font-size:12px; font-weight:700; font-style:normal; color:#ffffff 
+}
+
+.nof_NOFClubOekoenergieNavbar4-Rollover {
+font-family:Arial; font-size:12px; font-weight:700; font-style:normal; color:#ffffff 
+}
+
+.nof_NOFClubOekoenergieNavbar6-Highlighted {
+font-family:Arial; font-size:12px; font-weight:700; font-style:normal; color:#ff9900 
+}
+
+.nof_NOFClubOekoenergieNavbar8-HighlightedRollover {
+font-family:Arial; font-size:12px; font-weight:700; font-style:normal; color:#ffffff 
+}
+
+.nof_NOFClubOekoenergieNavbar3-Regular {
+font-family:MS Sans Serif ; font-size:12px; font-weight:700; font-style:normal; color:#000000 
+}
+
+.nof_NOFClubOekoenergieNavbar5-Rollover {
+font-family:MS Sans Serif ; font-size:12px; font-weight:700; font-style:normal; color:#000000 
+}
+
+.nof_NOFClubOekoenergieNavbar7-Highlighted {
+font-family:MS Sans Serif ; font-size:12px; font-weight:700; font-style:normal; color:#000000 
+}
+
+.nof_NOFClubOekoenergieNavbar9-HighlightedRollover {
+font-family:MS Sans Serif ; font-size:12px; font-weight:700; font-style:normal; color:#000000 
+}
+
+.jcarousel-skin-nof .jcarousel-next-horizontal {
+    background: transparent url( "file:///C:/Users/Nitrox/Documents/Dokumente/Skripte/html/Homepage/UserSite/Hompage/Styles/NOF-Club Oekoenergie/Images/nof-carousel-nav-right-lt.png" ) no-repeat 95% 50%}
+
+.jcarousel-skin-nof:hover .jcarousel-next-horizontal {
+	background-image: url( "file:///C:/Users/Nitrox/Documents/Dokumente/Skripte/html/Homepage/UserSite/Hompage/Styles/NOF-Club Oekoenergie/Images/nof-carousel-nav-right-lt.png" )
+}
+.jcarousel-skin-nof .jcarousel-next-horizontal:hover {
+	background-image: url( "file:///C:/Users/Nitrox/Documents/Dokumente/Skripte/html/Homepage/UserSite/Hompage/Styles/NOF-Club Oekoenergie/Images/nof-carousel-nav-right-lt.png" ) /* prev */
+}
+
+.jcarousel-skin-nof .jcarousel-direction-rtl .jcarousel-next-horizontal:hover {
+	background-image: url( "file:///C:/Users/Nitrox/Documents/Dokumente/Skripte/html/Homepage/UserSite/Hompage/Styles/NOF-Club Oekoenergie/Images/nof-carousel-nav-left-lt.png" )
+}
+
+.jcarousel-skin-nof .jcarousel-next-horizontal:focus {
+    background-image: url( "file:///C:/Users/Nitrox/Documents/Dokumente/Skripte/html/Homepage/UserSite/Hompage/Styles/NOF-Club Oekoenergie/Images/nof-carousel-nav-right-dk.png" )
+}
+
+.jcarousel-skin-nof .jcarousel-next-horizontal:active {
+    background-image: url( "file:///C:/Users/Nitrox/Documents/Dokumente/Skripte/html/Homepage/UserSite/Hompage/Styles/NOF-Club Oekoenergie/Images/nof-carousel-nav-right-dk.png" )
+}
+
+/* Previous */
+.jcarousel-skin-nof .jcarousel-prev-horizontal {
+    background: transparent url( "file:///C:/Users/Nitrox/Documents/Dokumente/Skripte/html/Homepage/UserSite/Hompage/Styles/NOF-Club Oekoenergie/Images/nof-carousel-nav-left-lt.png" ) no-repeat 5% 50%}
+
+.jcarousel-skin-nof:hover .jcarousel-prev-horizontal {
+	background-image: url( "file:///C:/Users/Nitrox/Documents/Dokumente/Skripte/html/Homepage/UserSite/Hompage/Styles/NOF-Club Oekoenergie/Images/nof-carousel-nav-left-lt.png" )
+}
+.jcarousel-skin-nof .jcarousel-prev-horizontal:hover {
+	background-image: url( "file:///C:/Users/Nitrox/Documents/Dokumente/Skripte/html/Homepage/UserSite/Hompage/Styles/NOF-Club Oekoenergie/Images/nof-carousel-nav-left-lt.png" )
+}
+
+.jcarousel-skin-nof .jcarousel-direction-rtl .jcarousel-prev-horizontal:hover {
+	background-image: url( "file:///C:/Users/Nitrox/Documents/Dokumente/Skripte/html/Homepage/UserSite/Hompage/Styles/NOF-Club Oekoenergie/Images/nof-carousel-nav-right-lt.png" )
+}
+
+.jcarousel-skin-nof .jcarousel-prev-horizontal:focus {
+    background-image: url( "file:///C:/Users/Nitrox/Documents/Dokumente/Skripte/html/Homepage/UserSite/Hompage/Styles/NOF-Club Oekoenergie/Images/nof-carousel-nav-left-dk.png" )
+}
+
+.jcarousel-skin-nof .jcarousel-prev-horizontal:active {
+    background-image: url( "file:///C:/Users/Nitrox/Documents/Dokumente/Skripte/html/Homepage/UserSite/Hompage/Styles/NOF-Club Oekoenergie/Images/nof-carousel-nav-left-dk.png" )
+}
+
+/**
+ *  Vertical Buttons
+ */
+.jcarousel-skin-nof .jcarousel-next-vertical {
+    background: transparent url( "file:///C:/Users/Nitrox/Documents/Dokumente/Skripte/html/Homepage/UserSite/Hompage/Styles/NOF-Club Oekoenergie/Images/nof-carousel-nav-down-lt.png" ) no-repeat 50% 95%}
+
+.jcarousel-skin-nof:hover .jcarousel-next-vertical {
+	background-image: url( "file:///C:/Users/Nitrox/Documents/Dokumente/Skripte/html/Homepage/UserSite/Hompage/Styles/NOF-Club Oekoenergie/Images/nof-carousel-nav-down-lt.png" )
+}
+.jcarousel-skin-nof .jcarousel-next-vertical:hover {
+	background-image: url( "file:///C:/Users/Nitrox/Documents/Dokumente/Skripte/html/Homepage/UserSite/Hompage/Styles/NOF-Club Oekoenergie/Images/nof-carousel-nav-down-lt.png" )
+}
+
+.jcarousel-skin-nof .jcarousel-direction-rtl .jcarousel-next-vertical:hover {
+	background-image: url( "file:///C:/Users/Nitrox/Documents/Dokumente/Skripte/html/Homepage/UserSite/Hompage/Styles/NOF-Club Oekoenergie/Images/nof-carousel-nav-up-lt.png" )
+}
+
+.jcarousel-skin-nof .jcarousel-next-vertical:focus {
+    background-image: url( "file:///C:/Users/Nitrox/Documents/Dokumente/Skripte/html/Homepage/UserSite/Hompage/Styles/NOF-Club Oekoenergie/Images/nof-carousel-nav-down-dk.png" )
+}
+
+.jcarousel-skin-nof .jcarousel-next-vertical:active {
+    background-image: url( "file:///C:/Users/Nitrox/Documents/Dokumente/Skripte/html/Homepage/UserSite/Hompage/Styles/NOF-Club Oekoenergie/Images/nof-carousel-nav-down-dk.png" )
+}
+
+/* Previous */
+.jcarousel-skin-nof .jcarousel-prev-vertical {
+    background: transparent url( "file:///C:/Users/Nitrox/Documents/Dokumente/Skripte/html/Homepage/UserSite/Hompage/Styles/NOF-Club Oekoenergie/Images/nof-carousel-nav-up-lt.png" ) no-repeat 50% 5%}
+
+.jcarousel-skin-nof:hover .jcarousel-prev-vertical {
+	background-image: url( "file:///C:/Users/Nitrox/Documents/Dokumente/Skripte/html/Homepage/UserSite/Hompage/Styles/NOF-Club Oekoenergie/Images/nof-carousel-nav-up-lt.png" )
+}
+.jcarousel-skin-nof .jcarousel-prev-vertical:hover {
+	background-image: url( "file:///C:/Users/Nitrox/Documents/Dokumente/Skripte/html/Homepage/UserSite/Hompage/Styles/NOF-Club Oekoenergie/Images/nof-carousel-nav-up-lt.png" )
+}
+
+.jcarousel-skin-nof .jcarousel-direction-rtl .jcarousel-prev-vertical:hover {
+	background-image: url( "file:///C:/Users/Nitrox/Documents/Dokumente/Skripte/html/Homepage/UserSite/Hompage/Styles/NOF-Club Oekoenergie/Images/nof-carousel-nav-down-lt.png" )
+}
+
+.jcarousel-skin-nof .jcarousel-prev-vertical:focus {
+    background-image: url( "file:///C:/Users/Nitrox/Documents/Dokumente/Skripte/html/Homepage/UserSite/Hompage/Styles/NOF-Club Oekoenergie/Images/nof-carousel-nav-up-dk.png" )
+}
+
+.jcarousel-skin-nof .jcarousel-prev-vertical:active {
+    background-image: url( "file:///C:/Users/Nitrox/Documents/Dokumente/Skripte/html/Homepage/UserSite/Hompage/Styles/NOF-Club Oekoenergie/Images/nof-carousel-nav-up-dk.png" )
+}

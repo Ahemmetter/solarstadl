@@ -1,0 +1,263 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Cache-Control" content="no-cache">
+<style>
+  @import url("../../preview.css");
+  @import url("../css/ui.css");
+</style>
+</head>
+<body id="preview" onLoad="parent.initPreview(document);" _onClick="parent.setSelector();" bgcolor="#ffffff">
+<div class="nof_ui" style="margin-top: 0px;"><span class="nof_ui_heading">Verwaltung - Artikel bearbeiten</span></div>
+<div onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_news_header">
+  <table width="100%" border="0" cellpadding="0" cellspacing="0" class="nof_news_header">
+    <tr>
+      <td><span onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_news_heading"><span class="nof_news_text"><span class="nof_news_heading">Artikel bearbeiten</span></span></span></td>
+      <td align="right"><span onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_news_required"><span class="nof_news_text"><span class="nof_news_required">*Erforderliche Felder</span></span></span></td>
+    </tr>
+  </table>
+</div>
+<div onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_news_content">
+  <div class="nof_news_content">
+    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+      <tbody>
+        <tr>
+          <td class="nof_news_contentCell">&nbsp;</td>
+          <td class="nof_news_contentCell" width="100%"><span onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_news_formInstructions"><span class="nof_news_text"><span class="nof_news_formInstructions">Bitte füllen Sie die folgenden Felder aus:</span></span></span></td>
+        </tr>
+        <tr>
+          <td class="nof_news_contentCell"><span onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_news_label"><span class="nof_news_text"><label for="title" class="nof_news_label"><span onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_news_required"><span class="nof_news_required">*</span></span>Nachrichten-Überschrift:</label></span></span></td>
+          <td width="100%" class="nof_news_contentCell"><span onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_news_input_text"><input name="title" type="text" class="nof_news_input_text" id="title" value="Beispiel für Textfeld" size="40"></span></td>
+        </tr>
+        <tr>
+          <td valign="top" class="nof_news_contentCell"><span onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_news_label"><span class="nof_news_text"><label for="shortmessage" class="nof_news_label"><span onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_news_required"><span class="nof_news_required">*</span></span>Kurze Nachricht:</label></span></span></td>
+          <td width="100%" class="nof_news_contentCell"><span onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_news_textarea"><textarea name="shortmessage" cols="31" rows="5" class="nof_news_textarea" id="shortmessage">Beispiel für Textbereich-Design. Zum Bearbeiten hier klicken.</textarea></span></td>
+        </tr>
+        <tr>
+          <td valign="top" class="nof_news_contentCell"><span onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_news_label"><span class="nof_news_text"><label for="fullmessage" class="nof_news_label"><span onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_news_required"><span class="nof_news_required">*</span></span>Gesamte Nachricht:</label></span></span></td>
+          <td width="100%" class="nof_news_contentCell"><span onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_news_textarea"><textarea name="fullmessage" cols="31" rows="5" class="nof_news_textarea" id="fullmessage">Beispiel für Textbereich-Design. Zum Bearbeiten hier klicken.</textarea></span></td>
+        </tr>
+        <tr>
+          <td class="nof_news_contentCell"><span onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_news_label"><span class="nof_news_text"><label for="author" class="nof_news_label"><span onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_news_required"><span class="nof_news_required">*</span></span>Autor:</label></span></span></td>
+          <td width="100%" class="nof_news_contentCell"><span onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_news_input_text"><input name="author" type="text" class="nof_news_input_text" id="author" value="Beispiel für Textfeld" size="40"></span></td>
+        </tr>
+        <tr valign="top">
+          <td class="nof_news_contentCell"><span onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_news_label"><span class="nof_news_text"><label for="userfile" class="nof_news_label"><span onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_news_required"><span class="nof_news_required">*</span></span>Bild:</label></span></span></td>
+          <td width="100%" valign="top" class="nof_news_contentCell"><span onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_news_input_file"><input name="userfile" type="file" onClick="return false;" class="nof_news_input_file" id="userfile" size="40"></span><span onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_news_maxPicSize"><span class="nof_news_text"><span class="nof_news_maxPicSize">(Max. Bildgröße: 200 KB)</span></span></span></td>
+        </tr>
+        <tr>
+          <td class="nof_news_contentCell"><span onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_news_label"><span class="nof_news_text"><label for="status" class="nof_news_label"><span onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_news_required"><span class="nof_news_required">*</span></span>Status:</label></span></span></td>
+          <td width="100%" class="nof_news_contentCell"><span onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_news_select">
+            <select name="status" class="nof_news_select" id="status">
+              <option class="nof_news_select_option" value="true">Bestätigt</option>
+              <option class="nof_news_select_option" value="false">Ungeprüft</option>
+            </select>
+            </span></td>
+        </tr>
+        <tr>
+          <td class="nof_news_contentCell">&nbsp;</td>
+          <td width="100%" class="nof_news_contentCell"><span onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_news_input_button"><input class="nof_news_input_button" value="Zurück" type="button"></span><span onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_news_input_button"><input class="nof_news_input_button" value="Speichern" type="button"></span></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+<div onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_news_footer">
+  <table width="100%" border="0" cellpadding="0" cellspacing="0" class="nof_news_footer">
+    <tr>
+      <td>&nbsp;</td>
+    </tr>
+  </table>
+</div>
+<div class="nof_ui"><span class="nof_ui_heading">Verwaltung - Artikel-Liste</span></div>
+<div onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_news_header">
+  <table width="100%" border="0" cellpadding="0" cellspacing="0" class="nof_news_header">
+    <tr>
+      <td><span onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_news_heading"><span class="nof_news_text"><span class="nof_news_heading">Nachrichten-Artikel</span></span></span></td>
+      <td align="right"><span onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_news_navigation"><span class="nof_news_text"><span class="nof_news_navigation">Seiten:&nbsp;1&nbsp;<span onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_news_navigationLink"><a class="nof_news_link" href="JavaScript:void(0);"><span class="nof_news_navigationLink">2</span></a></span>&nbsp;(2)</span></span></span></td>
+    </tr>
+  </table>
+</div>
+<div onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_news_content">
+  <div class="nof_news_content">
+    <table width="100%" border="0" cellpadding="0" cellspacing="0">
+      <tbody>
+        <tr>
+          <td class="nof_news_columnHeadingRow">&nbsp;</td>
+          <td class="nof_news_columnHeadingRow"><span onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_news_columnHeadingRow"><span class="nof_news_text"><span class="nof_news_columnHeading">Titel</span></span></span></td>
+          <td class="nof_news_columnHeadingRow"><span onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_news_columnHeadingRow"><span class="nof_news_text"><span class="nof_news_columnHeading">Datum</span></span></span></td>
+          <td class="nof_news_columnHeadingRow"><span onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_news_columnHeadingRow"><span class="nof_news_text"><span class="nof_news_columnHeading">Autor</span></span></span></td>
+          <td class="nof_news_columnHeadingRow"><span onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_news_input_checkbox"><input name="checkbox" type="checkbox" id="checkbox" value="checkbox" class="nof_news_input_checkbox" hidefocus="true"></span><span onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_news_columnHeadingRow"><span class="nof_news_text"><span class="nof_news_columnHeading">Bestätigt</span></span></span></td>
+        </tr>
+        <tr>
+          <td class="nof_news_contentCell" align="right"><span onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_news_input_radio"><input class="nof_news_input_radio" name="id" value="1" type="radio"></span></td>
+          <td class="nof_news_contentCell"><span onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_news_text"><span class="nof_news_text">Beispiel für Text-Design der Nachrichten-Komponente.</span></span></td>
+          <td class="nof_news_contentCell"><span onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_news_text"><span class="nof_news_text">11.08.06</span></span></td>
+          <td class="nof_news_contentCell"><span onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_news_text"><span class="nof_news_text">Herr Schmid</span></span></td>
+          <td class="nof_news_contentCell"><span onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_news_input_checkbox"><input name="chk" type="checkbox" class="nof_news_input_checkbox" id="chk" checked="checked"></span></td>
+        </tr>
+        <tr>
+          <td class="nof_news_contentCell" align="right"><span onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_news_input_radio"><input class="nof_news_input_radio" name="id" value="1" type="radio"></span></td>
+          <td class="nof_news_contentCell"><span onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_news_text"><span class="nof_news_text">Beispiel für Text-Design der Nachrichten-Komponente.</span></span></td>
+          <td class="nof_news_contentCell"><span onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_news_text"><span class="nof_news_text">11.08.06</span></span></td>
+          <td class="nof_news_contentCell"><span onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_news_text"><span class="nof_news_text">Frau Braun</span></span></td>
+          <td class="nof_news_contentCell"><span onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_news_input_checkbox"><input name="chk" type="checkbox" class="nof_news_input_checkbox" id="chk" checked="checked"></span></td>
+        </tr>
+        <tr>
+          <td class="nof_news_contentCell" colspan="5" align="center"><span onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_news_input_button"><input class="nof_news_input_button" value="Zurück" type="button"></span><span onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_news_input_button"><input class="nof_news_input_button" value="Hinzufügen" type="button"></span><span onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_news_input_button"><input class="nof_news_input_button" value="Bearbeiten" type="button"></span><span onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_news_input_button"><input class="nof_news_input_button" value="Ansicht" type="button"></span><span onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_news_input_button"><input class="nof_news_input_button" value="Entfernen" type="button"></span><span onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_news_input_button"><input class="nof_news_input_button" value="Speichern" type="button"></span></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+<div onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_news_footer">
+  <table width="100%" border="0" cellpadding="0" cellspacing="0" class="nof_news_footer">
+    <tr>
+      <td>&nbsp;</td>
+    </tr>
+  </table>
+</div>
+<div class="nof_ui"><span class="nof_ui_heading">Verwaltung - Artikel anzeigen</span></div>
+<div onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_news_header">
+  <table width="100%" border="0" cellpadding="0" cellspacing="0" class="nof_news_header">
+    <tr>
+      <td><span onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_news_heading"><span class="nof_news_text"><span class="nof_news_heading">Artikel anzeigen</span></span></span></td>
+      <td align="right"><span onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_news_required"><span class="nof_news_required">*Erforderliche Felder</span></span></td>
+    </tr>
+  </table>
+</div>
+<div onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_news_content">
+  <div class="nof_news_content">
+    <table width="100%" border="0" cellpadding="0" cellspacing="0">
+      <tbody>
+        <tr>
+          <td class="nof_news_contentCell" valign="top"><span onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_news_label"><span class="nof_news_text"><label class="nof_news_label">Nachrichten-Überschrift:</label></span></span></td>
+          <td width="100%" class="nof_news_contentCell"><span onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_news_text"><span class="nof_news_text">Einführung neuer Produktlinie</span></span></td>
+        </tr>
+        <tr>
+          <td valign="top" class="nof_news_contentCell"><span onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_news_label"><span class="nof_news_text"><label class="nof_news_label">Kurze Nachricht:</label></span></span></td>
+          <td width="100%" class="nof_news_contentCell"><span onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_news_text"><span class="nof_news_text">Diese Woche wurde eine neue Produktlinie eingeführt. Sie bietet die neuesten Entwicklungen unserer Branche. </span></span></td>
+        </tr>
+        <tr>
+          <td valign="top" class="nof_news_contentCell"><span onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_news_label"><span class="nof_news_text"><label class="nof_news_label">Gesamte Nachricht:</label></span></span></td>
+          <td width="100%" class="nof_news_contentCell"><span onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_news_text"><span class="nof_news_text">Wir freuen uns, ankündigen zu können, dass auf unserer Website ein neues Produkt angeboten wird. Es bietet die neuesten Entwicklungen der Branche.</span></span></td>
+        </tr>
+        <tr>
+          <td valign="top" class="nof_news_contentCell"><span onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_news_label"><span class="nof_news_text"><label class="nof_news_label">Autor:</label></span></span></td>
+          <td width="100%" class="nof_news_contentCell"><span onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_news_text"><span class="nof_news_text">Herr Schmid</span></span></td>
+        </tr>
+        <tr>
+          <td valign="top" class="nof_news_contentCell"><span onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_news_label"><span class="nof_news_text"><label class="nof_news_label">Datum:</label></span></span></td>
+          <td width="100%" class="nof_news_contentCell"><span onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_news_text"><span class="nof_news_text">11.08.06</span></span></td>
+        </tr>
+        <tr>
+          <td valign="top" class="nof_news_contentCell"><span onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_news_label"><span class="nof_news_text"><label class="nof_news_label">Status:</label></span></span></td>
+          <td width="100%" class="nof_news_contentCell"><span onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_news_text"><span class="nof_news_text">Dieser Artikel wurde geprüft.</span></span></td>
+        </tr>
+        <tr>
+          <td class="nof_news_contentCell" colspan="2" align="center"><span onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_news_input_button"><input class="nof_news_input_button" value="Zurück" type="button"></span><span onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_news_input_button"><input class="nof_news_input_button" value="Bearbeiten" type="button"></span><span onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_news_input_button"><input class="nof_news_input_button" value="Entfernen" type="button"></span><span onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_news_input_button"><input class="nof_news_input_button" value="Nicht bestätigen" type="button"></span></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+<div onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_news_footer">
+  <table width="100%" border="0" cellpadding="0" cellspacing="0" class="nof_news_footer">
+    <tr>
+      <td>&nbsp;</td>
+    </tr>
+  </table>
+</div>
+<div class="nof_ui"><span class="nof_ui_heading">Nachrichten-Artikel</span></div>
+<div onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_news_header">
+  <table width="100%" border="0" cellpadding="0" cellspacing="0" class="nof_news_header">
+    <tr>
+      <td><span onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_news_heading"><span class="nof_news_text"><span class="nof_news_heading">Nachrichten-Artikel</span></span></span></td>
+      <td width="33%" align="center"><span onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_news_link"><span class="nof_news_text"><a class="nof_news_link" href="JavaScript:void(0);">Zurück zu den Artikeln</a></span></span></td>
+      <td width="33%" align="right"><span onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_news_navigation"><span class="nof_news_text"><span class="nof_news_navigation">Seiten:&nbsp;1&nbsp;<span onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_news_navigationLink"><a class="nof_news_link" href="JavaScript:void(0);"><span class="nof_news_navigationLink">2</span></a></span>&nbsp;(2)</span></span></span></td>
+    </tr>
+  </table>
+</div>
+<div onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_news_content">
+  <div class="nof_news_content">
+    <table width="100%" border="0" cellpadding="0" cellspacing="0">
+      <tbody>
+        <tr>
+          <td class="nof_news_contentCell" valign="top"><span class="nof_news_text"><span onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_news_date"><p class="nof_news_date">11.08.06</p></span><span onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_news_title"><p class="nof_news_title">Beispiel für Nachrichten-Überschrift. Lorem ipsum dolor sit amet.</p></span><span onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_news_message"><p class="nof_news_message">Beispiel für gesamte Nachricht. Lorem
+              ipsum dolor sit amet, consectetuer adipiscing elit. Nunc a augue.
+              Praesent interdum pulvinar sapien. Aenean tristique nunc in metus.
+              Praesent feugiat. Phasellus nec erat nec tellus laoreet tincidunt. Sed
+              sed dui. Cras laoreet metus sollicitudin massa. Proin libero mi, luctus
+              elementum, vehicula sed, rhoncus.</p></span><span onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_news_author"><p class="nof_news_author">Beispiel für Autor.</p></span><span onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_news_hr"><hr class="nof_news_hr"></span></span></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+<div onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_news_footer">
+  <table width="100%" border="0" cellpadding="0" cellspacing="0" class="nof_news_footer">
+    <tr>
+      <td>&nbsp;</td>
+    </tr>
+  </table>
+</div>
+<div class="nof_ui"><span class="nof_ui_heading">Nachrichten-Artikel-Liste</span></div>
+<div onClick="parent.setSelector(this);" class="nof_ui_container">
+<input type="hidden" value=".nof_news_header">
+<table width="100%" border="0" cellpadding="0" cellspacing="0" class="nof_news_header">
+  <tr>
+    <td><span onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_news_heading"><span class="nof_news_text"><span class="nof_news_heading">Nachrichten-Artikel</span></span></span></td>
+    <td align="right"><span onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_news_navigation"><span class="nof_news_text"><span class="nof_news_navigation">Seiten:&nbsp;1&nbsp;<span onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_news_navigationLink"><a class="nof_news_link" href="JavaScript:void(0);"><span class="nof_news_navigationLink">2</span></a></span>&nbsp;(2)</span></span></span></td>
+  </tr>
+</table>
+</div>
+<div onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_news_content">
+  <div class="nof_news_content">
+    <table width="100%" border="0" cellpadding="0" cellspacing="0">
+      <tr>
+        <td class="nof_news_contentCell" valign="top"><span class="nof_news_text"><span onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_news_date"><p class="nof_news_date">11.08.06</p></span><span onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_news_title"><p class="nof_news_title">Beispiel für Nachrichten-Überschrift. Lorem ipsum dolor sit amet.</p></span><span onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_news_message"><p class="nof_news_message">Beispiel für gesamte Nachricht. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nunc a augue. Praesent interdum pulvinar sapien. <span onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_news_readMore"><a class="nof_news_link" href="JavaScript:void(0);"><span class="nof_news_readMore">Weiter lesen ...</span></a></span></p></span><span onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_news_author"><p class="nof_news_author">Beispiel für Autor</p></span><span onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_news_hr"><hr class="nof_news_hr"></span></span></td>
+      </tr>
+      <tbody>
+      </tbody>
+    </table>
+  </div>
+</div>
+<div onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_news_footer">
+  <table width="100%" border="0" cellpadding="0" cellspacing="0" class="nof_news_footer">
+    <tr>
+      <td>&nbsp;</td>
+    </tr>
+  </table>
+</div>
+<div class="nof_ui"><span class="nof_ui_heading">Anmelden</span></div>
+<div onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_news_header">
+  <table width="100%" border="0" cellpadding="0" cellspacing="0" class="nof_news_header">
+    <tr>
+      <td><span onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_news_heading"><span class="nof_news_text"><span class="nof_news_heading">Anmelden</span></span></span></td>
+    </tr>
+  </table>
+</div>
+<div onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_news_content">
+  <div class="nof_news_content">
+    <table width="100%" border="0" cellpadding="0" cellspacing="0">
+      <tbody>
+        <tr>
+          <td class="nof_news_contentCell"><span onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_news_label"><span class="nof_news_text"><label for="password" class="nof_news_label">Kennwort:</label></span></span></td>
+          <td width="100%" align="left" class="nof_news_contentCell"><span onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_news_input_text"><input name="password" type="text" class="nof_news_input_text" id="password" size="30"></span><span onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_news_input_button"><input class="nof_news_input_button" value="Anmelden" type="button"></span></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+<div onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_news_footer">
+  <table width="100%" border="0" cellpadding="0" cellspacing="0" class="nof_news_footer">
+    <tr>
+      <td>&nbsp;</td>
+    </tr>
+  </table>
+</div>
+<div id="selection"></div>
+</body>
+</html>

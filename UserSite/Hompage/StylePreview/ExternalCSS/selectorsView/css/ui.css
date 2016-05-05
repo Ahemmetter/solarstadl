@@ -1,0 +1,81 @@
+html {
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+  background: none transparent;
+}
+
+body#preview {
+  margin: 10px;
+}
+
+.nof_ui {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  background-color: white;
+}
+
+.nof_ui span.nof_ui_heading {
+  font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  margin: 0px;
+  padding: 0px;
+  padding-top: 5px;
+  font-style: normal;
+  text-align:left;
+  text-decoration: none;
+  text-indent:0px;
+  border: 0px;
+  border-bottom: 2px solid #ccc;
+  vertical-align:middle;
+  display:block;
+  line-height:normal;
+  color: WindowText;
+}
+
+.nof_ui_linksList {
+  margin: 0px !imporant;
+  padding: 0px !imporant;
+  list-style-type:none !imporant;
+  font-size: medium !imporant;
+  color: black !imporant;
+  text-decoration: none !imporant;
+  font-weight: normal !imporant;
+}
+
+.nof_ui_linksList dt {
+  padding: 5px 0px;
+  list-style-type:none;
+  font-size: medium !imporant;
+  color: black !imporant;
+  text-decoration: none !imporant;
+  font-weight: normal !imporant;
+}
+
+#selection {
+  display: none;
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  top: 0px;
+  left: 0px;
+  border: 2px solid Highlight;
+  margin-top: -2px;
+  margin-left: -2px;
+}
+
+.nof_ui_container {
+  cursor: pointer;
+}
+
+select#selectors {
+  width: 100%;
+  height: 100%;
+}

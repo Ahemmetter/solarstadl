@@ -1,0 +1,203 @@
+.jcarousel-skin-nof {
+	height: 100%
+}
+
+.jcarousel-skin-nof .jcarousel-container {
+    background: transparent none;
+    height: 100%
+}
+
+.jcarousel-skin-nof .jcarousel-direction-rtl {
+	direction: rtl
+}
+
+.jcarousel-skin-nof .jcarousel-clip {
+    overflow: hidden;
+    height: 100%
+}
+
+.jcarousel-skin-nof .jcarousel-item {
+    width: 100%;
+    height: 100%
+}
+
+.jcarousel-skin-nof .jcarousel-item img {
+	display: block;
+	max-width: 100%;
+	/* max-height: 100%; */
+	margin: 0 auto
+}
+
+.jcarousel-skin-nof .jcarousel-item-placeholder {
+    background: #fff;
+    color: #000
+}
+
+/* Animation */
+.jcarousel-next{
+	transition: opacity 0.1s;
+	-moz-transition: opacity 0.1s;
+	-webkit-transition: opacity 0.1s;
+	-o-transition: opacity 0.1s
+}
+
+/**
+ *  Horizontal Buttons
+ */
+
+.jcarousel-prev {
+	transition: opacity 0.1s;
+	-moz-transition: opacity 0.1s;
+	-webkit-transition: opacity 0.1s;
+	-o-transition: opacity 0.1s
+}
+
+/**
+ *  Horizontal Buttons
+ */
+.jcarousel-skin-nof .jcarousel-next-horizontal {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50%;
+    height: 100%;
+    cursor: pointer;
+    /*background: transparent url("Images\\nof-carousel-nav-right-lt.png") no-repeat 95% 50%; */
+    opacity: 0;
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"
+}
+
+.jcarousel-skin-nof:hover .jcarousel-next-horizontal{
+	/*background-image: url("Images\\nof-carousel-nav-right-lt.png"); */
+	opacity: 1;
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)"
+}
+
+
+.jcarousel-skin-nof .jcarousel-next-horizontal:hover {
+	/*background-image: url("Images\\nof-carousel-nav-right-lt.png"); */
+	opacity: 1;
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)"
+}
+
+.jcarousel-skin-nof .jcarousel-direction-rtl .jcarousel-next-horizontal {
+    top: 0;
+    left: 0;
+    right: auto;
+    background: transparent no-repeat 5% 50% /* prev */
+}
+.jcarousel-skin-nof .jcarousel-next-disabled {
+	visibility: hidden
+}
+
+/* Previous */
+.jcarousel-skin-nof .jcarousel-prev-horizontal {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    cursor: pointer;
+    /*background: transparent url("Images\\nof-carousel-nav-left-lt.png") no-repeat 5% 50%; */
+    opacity: 0;
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"
+}
+
+.jcarousel-skin-nof:hover .jcarousel-prev-horizontal{
+	/*background-image: url("Images\\nof-carousel-nav-left-lt.png");*/
+	opacity: 1;
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)"
+}
+
+
+.jcarousel-skin-nof .jcarousel-prev-horizontal:hover {
+	/*background-image: url("Images\\nof-carousel-nav-left-lt.png");*/
+	opacity: 1;
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)"
+}
+
+.jcarousel-skin-nof .jcarousel-direction-rtl .jcarousel-prev-horizontal {
+    top: 0;
+    left: auto;
+    right: 0;
+    background: transparent no-repeat 95% 50% /* next */
+}
+.jcarousel-skin-nof .jcarousel-prev-disabled {
+	visibility: hidden
+}
+
+
+/**
+ *  Vertical Buttons
+ */
+.jcarousel-skin-nof .jcarousel-next-vertical {
+    position: absolute;
+    top: auto;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 50%;
+    cursor: pointer;
+    /*background: transparent url("Images\\nof-carousel-nav-down-lt.png") no-repeat 50% 95%; */
+    opacity: 0;
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"
+}
+
+.jcarousel-skin-nof:hover .jcarousel-next-vertical{
+	/*background-image: url("Images\\nof-carousel-nav-down-lt.png");*/
+	opacity: 1;
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)"
+}
+
+
+.jcarousel-skin-nof .jcarousel-next-vertical:hover {
+	/*background-image: url("Images\\nof-carousel-nav-down-lt.png");*/
+	opacity: 1;
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)"
+}
+
+.jcarousel-skin-nof .jcarousel-direction-rtl .jcarousel-next-vertical {
+    top: auto;
+    bottom: 0;
+    left: 0;
+    background: transparent no-repeat 50% 5% /* prev */
+}
+.jcarousel-skin-nof .jcarousel-next-disabled {
+	visibility: hidden
+}
+
+/* Previous */
+.jcarousel-skin-nof .jcarousel-prev-vertical {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50%;
+    cursor: pointer;
+    /*background: transparent url("Images\\nof-carousel-nav-up-lt.png") no-repeat 50% 5%; */
+    opacity: 0;
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"
+}
+
+.jcarousel-skin-nof:hover .jcarousel-prev-vertical{
+	/*background-image: url("Images\\nof-carousel-nav-up-lt.png");*/
+	opacity: 1;
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)"
+}
+
+
+.jcarousel-skin-nof .jcarousel-prev-vertical:hover {
+	/*background-image: url("Images\\nof-carousel-nav-up-lt.png");*/
+	opacity: 1;
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)"
+}
+
+.jcarousel-skin-nof .jcarousel-direction-rtl .jcarousel-prev-vertical {
+    top: 0;
+    left: 0;
+    background: transparent no-repeat 50% 95% /* next */
+}
+.jcarousel-skin-nof .jcarousel-prev-disabled {
+	visibility: hidden
+}
+

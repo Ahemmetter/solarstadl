@@ -1,0 +1,123 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Cache-Control" content="no-cache">
+<style>
+  @import url("../../preview.css");
+  @import url("../css/ui.css");
+</style>
+</head>
+<body id="preview" onLoad="parent.initPreview(document);" _onClick="parent.setSelector();" bgcolor="#ffffff">
+<div class="nof_ui" style="margin-top: 0px;"><span class="nof_ui_heading">Seite verschicken</span></div>
+<div onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_emailPage_contentCell">
+  <table width="100%" border="0" cellpadding="0" cellspacing="0">
+    <tr>
+      <td class="nof_emailPage_contentCell"><span onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_emailPage_label"><span class="nof_emailPage_text"><label class="nof_emailPage_label" for="textbox">Textfeld:</label></span></span></td>
+      <td class="nof_emailPage_contentCell" width="100%"><span onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_emailPage_input_text"><input name="textbox" type="text" id="textbox" value="Beispiel für Textfeld" class="nof_emailPage_input_text"></span></td>
+    </tr>
+    <tr>
+      <td class="nof_emailPage_contentCell"><span onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_emailPage_label"><span class="nof_emailPage_text"><label class="nof_emailPage_label" for="password">Kennwort:</label></span></span></td>
+      <td class="nof_emailPage_contentCell" width="100%"><span onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_emailPage_input_password"><input name="password" type="password" id="password" value="password" class="nof_emailPage_input_password"></span></td>
+    </tr>
+    <tr>
+      <td class="nof_emailPage_contentCell" valign="top"><span onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_emailPage_label"><span class="nof_emailPage_text"><label class="nof_emailPage_label" for="listbox">Listenfeld:</label></span></span></td>
+      <td class="nof_emailPage_contentCell" width="100%"><span onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_emailPage_listBox">
+        <select name="listbox" size="4" id="listbox" class="nof_emailPage_listBox">
+          <option class="nof_emailPage_listBox_option">Beispiel für Option</option>
+          <option class="nof_emailPage_listBox_option">Option 2</option>
+          <option class="nof_emailPage_listBox_option">Option 3</option>
+          <!-- <optgroup label="Option Group" class="nof_emailPage_listBox_optgroup"> -->
+          <option class="nof_emailPage_listBox_option">Option 4</option>
+          <option class="nof_emailPage_listBox_option">Option 5</option>
+          <option class="nof_emailPage_listBox_option">Option 6</option>
+          <!-- </optgroup> -->
+        </select>
+        </span></td>
+    </tr>
+    <tr>
+      <td class="nof_emailPage_contentCell"><span onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_emailPage_label"><span class="nof_emailPage_text"><label class="nof_emailPage_label" for="dropdown">Dropdown:</label></span></span></td>
+      <td class="nof_emailPage_contentCell" width="100%"><span onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_emailPage_select">
+        <select name="dropdown" id="dropdown" class="nof_emailPage_select">
+          <option class="nof_emailPage_select_option">Beispiel für Option</option>
+          <option class="nof_emailPage_select_option">Option 2</option>
+          <option class="nof_emailPage_select_option">Option 3</option>
+          <!-- <optgroup label="Option Group" class="nof_emailPage_select_optgroup"> -->
+          <option class="nof_emailPage_select_option">Option 4</option>
+          <option class="nof_emailPage_select_option">Option 5</option>
+          <option class="nof_emailPage_select_option">Option 6</option>
+          <!-- </optgroup> -->
+        </select>
+        </span></td>
+    </tr>
+    <tr>
+      <td class="nof_emailPage_contentCell" valign="top"><span onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_emailPage_label"><span class="nof_emailPage_text"><label class="nof_emailPage_label" for="textarea">Textbereich:</label></span></span></td>
+      <td class="nof_emailPage_contentCell" width="100%"><span onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_emailPage_textarea"><textarea name="textarea" rows="5" id="textarea" class="nof_emailPage_textarea">Beispiel für Textbereich-Design. Zum Bearbeiten hier klicken.</textarea></span></td>
+    </tr>
+    <tr>
+      <td class="nof_emailPage_contentCell" valign="top"><span onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_emailPage_label"><span class="nof_emailPage_text"><label class="nof_emailPage_label" >Optionsschaltfläche:</label></span></span></td>
+      <td class="nof_emailPage_contentCell" width="100%"><span onClick="parent.setSelector(this);" class="nof_ui_container" id="form_input_radio1"><input type="hidden" value=".nof_emailPage_input_radio"><input name="radiobuttons" type="radio" value="radio" checked="CHECKED" class="nof_emailPage_input_radio" hidefocus="true"></span><span style="cursor:pointer" onclick="parent.setSelector(document.getElementById('form_input_radio1'))"><span class="nof_emailPage_text">Beispiel für Optionsschaltflächen-Design.</span></span><br>
+        <span onClick="parent.setSelector(this);" class="nof_ui_container" id="form_input_radio2"><input type="hidden" value=".nof_emailPage_input_radio"><input name="radiobuttons" type="radio" value="radio" class="nof_emailPage_input_radio" hidefocus="true"></span><span style="cursor:pointer" onclick="parent.setSelector(document.getElementById('form_input_radio2'))"><span class="nof_emailPage_text">Zum Bearbeiten hier klicken.</span></span></td>
+    </tr>
+    <tr>
+      <td class="nof_emailPage_contentCell"><span onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_emailPage_label"><span class="nof_emailPage_text"><label class="nof_emailPage_label" for="filebox">Datei:</label></span></span></td>
+      <td class="nof_emailPage_contentCell" width="100%"><span onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_emailPage_input_file"><input name="filebox" type="file" onClick="return false;" id="filebox" class="nof_emailPage_input_file" ></span></td>
+    </tr>
+    <tr>
+      <td class="nof_emailPage_contentCell"><span onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_emailPage_label"><span class="nof_emailPage_text"><label class="nof_emailPage_label" for="checkbox">Kontrollkästchen:</label></span></span></td>
+      <td class="nof_emailPage_contentCell" width="100%"><span onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_emailPage_input_checkbox"><input name="checkbox" type="checkbox" id="checkbox" value="checkbox" checked="checked" class="nof_emailPage_input_checkbox" hidefocus="true"></span></td>
+    </tr>
+    <tr>
+      <td class="nof_emailPage_contentCell" valign="top">&nbsp; </td>
+      <td class="nof_emailPage_contentCell" width="100%"><span onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_emailPage_input_button"><input name="button" type="button" value="Schaltfläche" class="nof_emailPage_input_button"></span><span onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_emailPage_input_reset"><input type="reset" value="Zurücksetzen" class="nof_emailPage_input_reset"></span><span onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_emailPage_input_submit"><input name="submit" type="button" value="Senden" class="nof_emailPage_input_submit"></span></td>
+    </tr>
+  </table>
+</div>
+<div class="nof_ui" style="margin-top: 0px;"><span class="nof_ui_heading">Statistik</span></div>
+<div onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_emailPage_header">
+  <table width="100%" border="0" cellpadding="0" cellspacing="0" class="nof_emailPage_header">
+    <tr>
+      <td><span onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_emailPage_heading"><span class="nof_emailPage_text"><span class="nof_emailPage_heading">Am häufigsten gesendete Seiten</span></span></span></td>
+    </tr>
+  </table>
+</div>
+<div onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_emailPage_content">
+  <div class="nof_emailPage_content">
+    <table width="100%" border="0" cellpadding="0" cellspacing="0">
+      <tr>
+        <td class="nof_emailPage_columnHeadingRow"><span onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_emailPage_columnHeadingRow"><span class="nof_emailPage_text"><span class="nof_emailPage_columnHeading">Link</span></span></span></td>
+        <td class="nof_emailPage_columnHeadingRow"><span onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_emailPage_columnHeadingRow"><span class="nof_emailPage_text"><span class="nof_emailPage_columnHeading">Zahl der Sendungen</span></span></span></td>
+      </tr>
+      <tr>
+        <td class="nof_emailPage_contentCell"><span onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_emailPage_link"><span class="nof_emailPage_text"><A href="JavaScript:void(0);" class="nof_emailPage_link">Webseiten-Adresse</A></span></span></td>
+        <td class="nof_emailPage_contentCell"><span onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_emailPage_text"><span class="nof_emailPage_text">42</span></span></td>
+      </tr>
+    </table>
+  </div>
+</div>
+<div onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_emailPage_footer">
+  <table border="0" cellpadding="0" cellspacing="0" width="100%" class="nof_emailPage_footer">
+    <tbody>
+      <tr>
+        <td>&nbsp;</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+<div class="nof_ui"><span class="nof_ui_heading">Meldungen</span></div>
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+  <tbody>
+    <tr>
+      <td class="nof_emailPage_contentCell">
+        <ul class="nof_emailPage_errorText">
+          <li><span onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_emailPage_errorText"><span class="nof_emailPage_text">Name ist erforderlich</span></span></li>
+          <li><span onClick="parent.setSelector(this);" class="nof_ui_container"><input type="hidden" value=".nof_emailPage_errorText"><span class="nof_emailPage_text">E-Mail ist erforderlich</span></span></li>
+        </ul>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<div id="selection"></div>
+</body>
+</html>
